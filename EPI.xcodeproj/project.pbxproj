@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F817BE1201407AD004B1C9D /* Solution3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F817BDF201407AD004B1C9D /* Solution3.cpp */; };
 		1FC453482013B92E00DBF2B2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC453472013B92E00DBF2B2 /* main.cpp */; };
 		1FC453522013B9FC00DBF2B2 /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC453502013B9FC00DBF2B2 /* Solution1.cpp */; };
 		1FC453592013BE2C00DBF2B2 /* Tests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC453572013BE2C00DBF2B2 /* Tests.cpp */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1F817BDF201407AD004B1C9D /* Solution3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution3.cpp; sourceTree = "<group>"; };
+		1F817BE0201407AD004B1C9D /* Solution3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution3.hpp; sourceTree = "<group>"; };
 		1FC453442013B92E00DBF2B2 /* EPI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EPI; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC453472013B92E00DBF2B2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1FC453502013B9FC00DBF2B2 /* Solution1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution1.cpp; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 				1FC453512013B9FC00DBF2B2 /* Solution1.hpp */,
 				1FC4535B2013CC2600DBF2B2 /* Solution2.cpp */,
 				1FC4535C2013CC2600DBF2B2 /* Solution2.hpp */,
+				1F817BDF201407AD004B1C9D /* Solution3.cpp */,
+				1F817BE0201407AD004B1C9D /* Solution3.hpp */,
 				1FC453572013BE2C00DBF2B2 /* Tests.cpp */,
 				1FC453582013BE2C00DBF2B2 /* Tests.hpp */,
 			);
@@ -153,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FC453592013BE2C00DBF2B2 /* Tests.cpp in Sources */,
+				1F817BE1201407AD004B1C9D /* Solution3.cpp in Sources */,
 				1FC4535D2013CC2600DBF2B2 /* Solution2.cpp in Sources */,
 				1FC453522013B9FC00DBF2B2 /* Solution1.cpp in Sources */,
 				1FC453482013B92E00DBF2B2 /* main.cpp in Sources */,

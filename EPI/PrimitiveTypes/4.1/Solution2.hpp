@@ -10,7 +10,7 @@
 #define Solution2_hpp
 
 #include <vector>
-#include <unordered_map>
+#include <array>
 
 namespace S2
 {
@@ -21,8 +21,8 @@ namespace S2
         short Parity(unsigned long long number);
         short Parity(const std::vector<unsigned long long> &numbers);
     private:
-        static std::unordered_map<short, short> m_parity_map;
-        void PopulateParityMap();
+        static std::array<short, USHRT_MAX> m_parities;
+        void PrepopulateParities();
     };
 
 } // namespace S2

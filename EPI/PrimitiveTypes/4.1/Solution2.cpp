@@ -12,27 +12,29 @@
 
 namespace S2
 {
+    // K = bit word length (in this case 64)
+    // L = section length (in this case 16)
+    // N = number of numbers to take parity of (length of vector)
+
+    // time: O(2^L * K) + O(N * K/L)
+    // space: O(1) ~130KB
     
-    // time: O(K^2) for populating map initially + O(N)
-    // space: ~260KB
-    
-    std::unordered_map<short, short> ParityCalculator::m_parity_map = std::unordered_map<short, short>();
+    std::array<short, USHRT_MAX> ParityCalculator::m_parities = std::array<short, USHRT_MAX>();
     
     ParityCalculator::ParityCalculator()
     {
-        if (m_parity_map.empty())
-        {
-            PopulateParityMap();
-        }
+        PrepopulateParities();
     }
     
     short ParityCalculator::Parity(unsigned long long number)
     {
         short parity = 0;
+        const int mask_size = 16;
+        const int bit_mask = 0xFFFF;
         while (number)
         {
-            parity ^= m_parity_map[number & 15]; // last 4 bits
-            number >>= 4;
+            parity ^= m_parities[number & bit_mask]; // last 4 bits
+            number >>= mask_size;
         }
         return parity;
     }
@@ -47,11 +49,10 @@ namespace S2
         return parity;
     }
     
-    void ParityCalculator::PopulateParityMap()
+    void ParityCalculator::PrepopulateParities()
     {
-        const unsigned short capacity = pow(2, 16);
-        for (unsigned short i = 0; i < capacity; ++i)
-            m_parity_map.insert({i, S1::Parity(i)});
+        for (unsigned short i = 0; i < USHRT_MAX; ++i)
+            m_parities[i] = S1::Parity(i);
     }
     
 } // namespace S2

@@ -22,7 +22,19 @@
  
  */
 
-void TestSolution1();
-void TestSolution2();
+#include <vector>
+
+class Tests
+{
+public:
+    Tests();
+    void TestSolution1();
+    void TestSolution2();
+    void TestSolution3();
+private:
+    std::vector<unsigned long long> m_numbers;
+};
+
+
 
 #endif /* Tests_hpp */
