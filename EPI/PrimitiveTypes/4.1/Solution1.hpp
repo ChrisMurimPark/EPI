@@ -9,4 +9,14 @@
 #ifndef Solutions_hpp
 #define Solutions_hpp
 
+#include <vector>
+
+namespace S1
+{
+    
+short Parity(unsigned long long number);
+short Parity(const std::vector<unsigned long long> &numbers);
+
+} // namespace S1
+
 #endif /* Solutions_hpp */
