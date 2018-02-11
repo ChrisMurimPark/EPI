@@ -13,11 +13,10 @@
 
 namespace S3
 {
-    
-    short Parity(unsigned long long number);
-    short Parity(const std::vector<unsigned long long> &numbers);
-    
+
+short Parity(unsigned long long number);
+short Parity(const std::vector<unsigned long long> &numbers);
+
 } // namespace S3
-
-
+    
 #endif /* Solution3_hpp */

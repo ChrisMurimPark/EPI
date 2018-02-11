@@ -1,5 +1,5 @@
 //
-//  Solutions.hpp
+//  Solution1.hpp
 //  EPI
 //
 //  Created by Chris (Murim) Park on 1/20/18.
@@ -13,7 +13,7 @@
 
 namespace S1
 {
-    
+
 short Parity(unsigned long long number);
 short Parity(const std::vector<unsigned long long> &numbers);
 

@@ -9,7 +9,6 @@
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    std::cout << "Elements of Programming Interviews Solutions! By Chris Park." << std::endl;
     return 0;
 }
