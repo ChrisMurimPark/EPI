@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		1F014A8620266CAF00D3A303 /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F014A8420266CAF00D3A303 /* Solution1.cpp */; };
 		1F014A8D202682F300D3A303 /* Solution2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F014A8B202682F300D3A303 /* Solution2.cpp */; };
+		1F2DD8AE2030F06700009B8B /* BuyAndSellAStockOnceTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F2DD8AD2030F06700009B8B /* BuyAndSellAStockOnceTests.cpp */; };
+		1F2DD8B22030F2E300009B8B /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F2DD8B02030F2E300009B8B /* Solution1.cpp */; };
+		1F2DD8B32030F41000009B8B /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F2DD8B02030F2E300009B8B /* Solution1.cpp */; };
 		1F5F20F1202FADF000B7439B /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC453502013B9FC00DBF2B2 /* Solution1.cpp */; };
 		1F5F20F2202FADF000B7439B /* Solution2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC4535B2013CC2600DBF2B2 /* Solution2.cpp */; };
 		1F5F20F3202FADF000B7439B /* Solution3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F817BDF201407AD004B1C9D /* Solution3.cpp */; };
@@ -52,6 +55,9 @@
 		1F014A8520266CAF00D3A303 /* Solution1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution1.hpp; sourceTree = "<group>"; };
 		1F014A8B202682F300D3A303 /* Solution2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution2.cpp; sourceTree = "<group>"; };
 		1F014A8C202682F300D3A303 /* Solution2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution2.hpp; sourceTree = "<group>"; };
+		1F2DD8AD2030F06700009B8B /* BuyAndSellAStockOnceTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BuyAndSellAStockOnceTests.cpp; sourceTree = "<group>"; };
+		1F2DD8B02030F2E300009B8B /* Solution1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution1.cpp; sourceTree = "<group>"; };
+		1F2DD8B12030F2E300009B8B /* Solution1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution1.hpp; sourceTree = "<group>"; };
 		1F5F20EF202FAC0C00B7439B /* ParityOfAWordTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ParityOfAWordTests.cpp; sourceTree = "<group>"; };
 		1F5F20F8202FAF1400B7439B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1F5F20FE202FB55500B7439B /* DutchFlagProblemTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DutchFlagProblemTests.cpp; sourceTree = "<group>"; };
@@ -94,6 +100,7 @@
 		1F014A8220266C8E00D3A303 /* Arrays */ = {
 			isa = PBXGroup;
 			children = (
+				1F2DD8AF2030F2CB00009B8B /* BuyAndSellAStockOnce */,
 				1F014A8320266C9700D3A303 /* DutchFlagProblem */,
 			);
 			path = Arrays;
@@ -113,6 +120,15 @@
 			path = DutchFlagProblem;
 			sourceTree = "<group>";
 		};
+		1F2DD8AF2030F2CB00009B8B /* BuyAndSellAStockOnce */ = {
+			isa = PBXGroup;
+			children = (
+				1F2DD8B02030F2E300009B8B /* Solution1.cpp */,
+				1F2DD8B12030F2E300009B8B /* Solution1.hpp */,
+			);
+			path = BuyAndSellAStockOnce;
+			sourceTree = "<group>";
+		};
 		1F5F20ED202FABF300B7439B /* PrimitiveTypes */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				1F5F20FE202FB55500B7439B /* DutchFlagProblemTests.cpp */,
+				1F2DD8AD2030F06700009B8B /* BuyAndSellAStockOnceTests.cpp */,
 			);
 			path = Arrays;
 			sourceTree = "<group>";
@@ -282,6 +299,7 @@
 				1F817BE1201407AD004B1C9D /* Solution3.cpp in Sources */,
 				1FC4535D2013CC2600DBF2B2 /* Solution2.cpp in Sources */,
 				1F014A8D202682F300D3A303 /* Solution2.cpp in Sources */,
+				1F2DD8B22030F2E300009B8B /* Solution1.cpp in Sources */,
 				1FDCFB9C2026B9AC00F0332F /* Solution3.cpp in Sources */,
 				1FC453522013B9FC00DBF2B2 /* Solution1.cpp in Sources */,
 				1FC453482013B92E00DBF2B2 /* main.cpp in Sources */,
@@ -292,6 +310,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F2DD8B32030F41000009B8B /* Solution1.cpp in Sources */,
+				1F2DD8AE2030F06700009B8B /* BuyAndSellAStockOnceTests.cpp in Sources */,
 				1F5F20F1202FADF000B7439B /* Solution1.cpp in Sources */,
 				1F5F20F2202FADF000B7439B /* Solution2.cpp in Sources */,
 				1F5F20F3202FADF000B7439B /* Solution3.cpp in Sources */,
