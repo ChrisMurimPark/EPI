@@ -8,23 +8,75 @@
 
 #include <gtest/gtest.h>
 #include "../../EPI/Strings/InterconvertStringsAndIntegers/Solution1.hpp"
+#include "../../EPI/Strings/InterconvertStringsAndIntegers/Solution2.hpp"
 
-TEST(InterconvertStringsAndIntegersTests, ConvertStringToInteger_GivenPositiveNumber_ReturnsCorrectValue)
+namespace S1
 {
-    EXPECT_EQ(23, S1::Convert("23"));
+
+TEST(InterconvertStringsAndIntegersTests, S1_ConvertStringToInteger_GivenPositiveNumber)
+{
+    EXPECT_EQ(23, Convert("23"));
 }
 
-TEST(InterconvertStringsAndIntegersTests, ConvertStringToInteger_GivenNegativeNumber_ReturnsCorrectValue)
+TEST(InterconvertStringsAndIntegersTests, S1_ConvertStringToInteger_GivenNegativeNumber)
 {
-    EXPECT_EQ(-40, S1::Convert("-40"));
+    EXPECT_EQ(-40, Convert("-40"));
+}
+    
+TEST(InterconvertStringsAndIntegersTests, S1_ConvertStringToInteger_GivenZero)
+{
+    EXPECT_EQ(0, Convert("0"));
 }
 
-TEST(InterconvertStringsAndIntegersTests, ConvertIntegerToString_GivenPositiveNumber_ReturnsCorrectValue)
+TEST(InterconvertStringsAndIntegersTests, S1_ConvertIntegerToString_GivenPositiveNumber)
 {
-    EXPECT_EQ("932", S1::Convert(932));
+    EXPECT_EQ("932", Convert(932));
 }
 
-TEST(InterconvertStringsAndIntegersTests, ConvertIntegerToString_GivenNegativeNumber_ReturnsCorrectValue)
+TEST(InterconvertStringsAndIntegersTests, S1_ConvertIntegerToString_GivenNegativeNumber)
 {
-    EXPECT_EQ("-791", S1::Convert(-791));
+    EXPECT_EQ("-791", Convert(-791));
 }
+
+TEST(InterconvertStringsAndIntegersTests, S1_ConvertIntegerToString_GivenZero)
+{
+    EXPECT_EQ("0", Convert(0));
+}
+    
+} // namespace S1
+
+namespace S2
+{
+    
+TEST(InterconvertStringsAndIntegersTests, S2_ConvertStringToInteger_GivenPositiveNumber)
+{
+    EXPECT_EQ(23, Convert("23"));
+}
+
+TEST(InterconvertStringsAndIntegersTests, S2_ConvertStringToInteger_GivenNegativeNumber)
+{
+    EXPECT_EQ(-40, Convert("-40"));
+}
+    
+TEST(InterconvertStringsAndIntegersTests, S2_ConvertStringToInteger_GivenZero)
+{
+    EXPECT_EQ(0, Convert("0"));
+}
+
+TEST(InterconvertStringsAndIntegersTests, S2_ConvertIntegerToString_GivenPositiveNumber)
+{
+    EXPECT_EQ("932", Convert(932));
+}
+
+TEST(InterconvertStringsAndIntegersTests, S2_ConvertIntegerToString_GivenNegativeNumber)
+{
+    EXPECT_EQ("-791", Convert(-791));
+}
+    
+TEST(InterconvertStringsAndIntegersTests, S1_ConvertIntegerToString_GivenZero)
+{
+    EXPECT_EQ("0", Convert(0));
+}
+
+} // namespace S2
+

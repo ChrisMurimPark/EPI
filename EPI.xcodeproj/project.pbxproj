@@ -24,6 +24,8 @@
 		1F5F20F7202FAE8800B7439B /* ParityOfAWordTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F20EF202FAC0C00B7439B /* ParityOfAWordTests.cpp */; };
 		1F5F20FF202FB55500B7439B /* DutchFlagProblemTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F20FE202FB55500B7439B /* DutchFlagProblemTests.cpp */; };
 		1F817BE1201407AD004B1C9D /* Solution3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F817BDF201407AD004B1C9D /* Solution3.cpp */; };
+		1FB389962031217000DD5CE6 /* Solution2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FB389942031217000DD5CE6 /* Solution2.cpp */; };
+		1FB389972031217000DD5CE6 /* Solution2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FB389942031217000DD5CE6 /* Solution2.cpp */; };
 		1FC453482013B92E00DBF2B2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC453472013B92E00DBF2B2 /* main.cpp */; };
 		1FC453522013B9FC00DBF2B2 /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC453502013B9FC00DBF2B2 /* Solution1.cpp */; };
 		1FC4535D2013CC2600DBF2B2 /* Solution2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC4535B2013CC2600DBF2B2 /* Solution2.cpp */; };
@@ -72,6 +74,8 @@
 		1F5F2100202FBD6000B7439B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1F817BDF201407AD004B1C9D /* Solution3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution3.cpp; sourceTree = "<group>"; };
 		1F817BE0201407AD004B1C9D /* Solution3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution3.hpp; sourceTree = "<group>"; };
+		1FB389942031217000DD5CE6 /* Solution2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution2.cpp; sourceTree = "<group>"; };
+		1FB389952031217000DD5CE6 /* Solution2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution2.hpp; sourceTree = "<group>"; };
 		1FC453442013B92E00DBF2B2 /* EPI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EPI; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC453472013B92E00DBF2B2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1FC453502013B9FC00DBF2B2 /* Solution1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution1.cpp; sourceTree = "<group>"; };
@@ -149,6 +153,8 @@
 			children = (
 				1F260EF220310094004503B8 /* Solution1.cpp */,
 				1F260EF320310094004503B8 /* Solution1.hpp */,
+				1FB389942031217000DD5CE6 /* Solution2.cpp */,
+				1FB389952031217000DD5CE6 /* Solution2.hpp */,
 				1F260EF820310734004503B8 /* README.md */,
 			);
 			path = InterconvertStringsAndIntegers;
@@ -335,6 +341,7 @@
 				1F260EF420310094004503B8 /* Solution1.cpp in Sources */,
 				1F014A8620266CAF00D3A303 /* Solution1.cpp in Sources */,
 				1F817BE1201407AD004B1C9D /* Solution3.cpp in Sources */,
+				1FB389962031217000DD5CE6 /* Solution2.cpp in Sources */,
 				1FC4535D2013CC2600DBF2B2 /* Solution2.cpp in Sources */,
 				1F014A8D202682F300D3A303 /* Solution2.cpp in Sources */,
 				1F2DD8B22030F2E300009B8B /* Solution1.cpp in Sources */,
@@ -359,6 +366,7 @@
 				1F5F20F5202FADF000B7439B /* Solution2.cpp in Sources */,
 				1F5F20F7202FAE8800B7439B /* ParityOfAWordTests.cpp in Sources */,
 				1F5F20FF202FB55500B7439B /* DutchFlagProblemTests.cpp in Sources */,
+				1FB389972031217000DD5CE6 /* Solution2.cpp in Sources */,
 				1F5F20F6202FADF000B7439B /* Solution3.cpp in Sources */,
 				1FF2CA9320279DA500801650 /* main.cpp in Sources */,
 			);

@@ -61,13 +61,14 @@ std::string Convert(const int &i)
     if (i < 0)
         s.push_back('-');
     i_copy = abs(i);
-    while (i_copy != 0)
+    
+    do
     {
         int digit = i_copy / divisor;
         s.push_back(CHARS.at(digit));
         i_copy -= (digit * divisor);
         divisor /= 10;
-    }
+    } while (i_copy != 0);
     return s;
 }
 
