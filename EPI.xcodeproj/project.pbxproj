@@ -15,6 +15,9 @@
 		1F2DD8AE2030F06700009B8B /* BuyAndSellAStockOnceTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F2DD8AD2030F06700009B8B /* BuyAndSellAStockOnceTests.cpp */; };
 		1F2DD8B22030F2E300009B8B /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F2DD8B02030F2E300009B8B /* Solution1.cpp */; };
 		1F2DD8B32030F41000009B8B /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F2DD8B02030F2E300009B8B /* Solution1.cpp */; };
+		1F354738203B4AC300EA9D40 /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F354735203B4AC300EA9D40 /* Solution1.cpp */; };
+		1F35473B203B4B0800EA9D40 /* MergeTwoSortedListsTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F35473A203B4B0800EA9D40 /* MergeTwoSortedListsTests.cpp */; };
+		1F35473C203B508D00EA9D40 /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F354735203B4AC300EA9D40 /* Solution1.cpp */; };
 		1F5F20F1202FADF000B7439B /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC453502013B9FC00DBF2B2 /* Solution1.cpp */; };
 		1F5F20F2202FADF000B7439B /* Solution2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC4535B2013CC2600DBF2B2 /* Solution2.cpp */; };
 		1F5F20F3202FADF000B7439B /* Solution3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F817BDF201407AD004B1C9D /* Solution3.cpp */; };
@@ -68,6 +71,11 @@
 		1F2DD8AD2030F06700009B8B /* BuyAndSellAStockOnceTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BuyAndSellAStockOnceTests.cpp; sourceTree = "<group>"; };
 		1F2DD8B02030F2E300009B8B /* Solution1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution1.cpp; sourceTree = "<group>"; };
 		1F2DD8B12030F2E300009B8B /* Solution1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution1.hpp; sourceTree = "<group>"; };
+		1F354735203B4AC300EA9D40 /* Solution1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Solution1.cpp; sourceTree = "<group>"; };
+		1F354736203B4AC300EA9D40 /* Solution1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Solution1.hpp; sourceTree = "<group>"; };
+		1F354737203B4AC300EA9D40 /* ListNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ListNode.hpp; sourceTree = "<group>"; };
+		1F35473A203B4B0800EA9D40 /* MergeTwoSortedListsTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeTwoSortedListsTests.cpp; sourceTree = "<group>"; };
+		1F35473E203B578600EA9D40 /* ListNodeUtils.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ListNodeUtils.hpp; sourceTree = "<group>"; };
 		1F5F20EF202FAC0C00B7439B /* ParityOfAWordTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ParityOfAWordTests.cpp; sourceTree = "<group>"; };
 		1F5F20F8202FAF1400B7439B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1F5F20FE202FB55500B7439B /* DutchFlagProblemTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DutchFlagProblemTests.cpp; sourceTree = "<group>"; };
@@ -170,6 +178,33 @@
 			path = BuyAndSellAStockOnce;
 			sourceTree = "<group>";
 		};
+		1F354733203B4AC300EA9D40 /* LinkedLists */ = {
+			isa = PBXGroup;
+			children = (
+				1F354734203B4AC300EA9D40 /* MergeTwoSortedLists */,
+				1F354737203B4AC300EA9D40 /* ListNode.hpp */,
+				1F35473E203B578600EA9D40 /* ListNodeUtils.hpp */,
+			);
+			path = LinkedLists;
+			sourceTree = "<group>";
+		};
+		1F354734203B4AC300EA9D40 /* MergeTwoSortedLists */ = {
+			isa = PBXGroup;
+			children = (
+				1F354735203B4AC300EA9D40 /* Solution1.cpp */,
+				1F354736203B4AC300EA9D40 /* Solution1.hpp */,
+			);
+			path = MergeTwoSortedLists;
+			sourceTree = "<group>";
+		};
+		1F354739203B4ADF00EA9D40 /* LinkedLists */ = {
+			isa = PBXGroup;
+			children = (
+				1F35473A203B4B0800EA9D40 /* MergeTwoSortedListsTests.cpp */,
+			);
+			path = LinkedLists;
+			sourceTree = "<group>";
+		};
 		1F5F20ED202FABF300B7439B /* PrimitiveTypes */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,6 +247,7 @@
 				1F014A8220266C8E00D3A303 /* Arrays */,
 				1FC4534E2013B97100DBF2B2 /* PrimitiveTypes */,
 				1F260EEF20310021004503B8 /* Strings */,
+				1F354733203B4AC300EA9D40 /* LinkedLists */,
 				1FC453472013B92E00DBF2B2 /* main.cpp */,
 				1FC4535A2013C56E00DBF2B2 /* README.md */,
 			);
@@ -246,6 +282,7 @@
 				1F5F20FD202FB53E00B7439B /* Arrays */,
 				1F5F20ED202FABF300B7439B /* PrimitiveTypes */,
 				1F260EF020310053004503B8 /* Strings */,
+				1F354739203B4ADF00EA9D40 /* LinkedLists */,
 				1FF2CA9220279DA500801650 /* main.cpp */,
 			);
 			path = UnitTests;
@@ -342,6 +379,7 @@
 				1F014A8620266CAF00D3A303 /* Solution1.cpp in Sources */,
 				1F817BE1201407AD004B1C9D /* Solution3.cpp in Sources */,
 				1FB389962031217000DD5CE6 /* Solution2.cpp in Sources */,
+				1F354738203B4AC300EA9D40 /* Solution1.cpp in Sources */,
 				1FC4535D2013CC2600DBF2B2 /* Solution2.cpp in Sources */,
 				1F014A8D202682F300D3A303 /* Solution2.cpp in Sources */,
 				1F2DD8B22030F2E300009B8B /* Solution1.cpp in Sources */,
@@ -355,11 +393,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F35473C203B508D00EA9D40 /* Solution1.cpp in Sources */,
 				1F260EF7203103A0004503B8 /* Solution1.cpp in Sources */,
 				1F2DD8B32030F41000009B8B /* Solution1.cpp in Sources */,
 				1F2DD8AE2030F06700009B8B /* BuyAndSellAStockOnceTests.cpp in Sources */,
 				1F5F20F1202FADF000B7439B /* Solution1.cpp in Sources */,
 				1F5F20F2202FADF000B7439B /* Solution2.cpp in Sources */,
+				1F35473B203B4B0800EA9D40 /* MergeTwoSortedListsTests.cpp in Sources */,
 				1F260EF6203102E7004503B8 /* InterconvertStringsAndIntegers.cpp in Sources */,
 				1F5F20F3202FADF000B7439B /* Solution3.cpp in Sources */,
 				1F5F20F4202FADF000B7439B /* Solution1.cpp in Sources */,
