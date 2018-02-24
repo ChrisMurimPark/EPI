@@ -18,6 +18,7 @@
 		1F354738203B4AC300EA9D40 /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F354735203B4AC300EA9D40 /* Solution1.cpp */; };
 		1F35473B203B4B0800EA9D40 /* MergeTwoSortedListsTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F35473A203B4B0800EA9D40 /* MergeTwoSortedListsTests.cpp */; };
 		1F35473C203B508D00EA9D40 /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F354735203B4AC300EA9D40 /* Solution1.cpp */; };
+		1F4559762041FF58000E7D8C /* StackWithMaxTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F4559752041FF58000E7D8C /* StackWithMaxTests.cpp */; };
 		1F5F20F1202FADF000B7439B /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC453502013B9FC00DBF2B2 /* Solution1.cpp */; };
 		1F5F20F2202FADF000B7439B /* Solution2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC4535B2013CC2600DBF2B2 /* Solution2.cpp */; };
 		1F5F20F3202FADF000B7439B /* Solution3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F817BDF201407AD004B1C9D /* Solution3.cpp */; };
@@ -63,11 +64,9 @@
 		1F014A8520266CAF00D3A303 /* Solution1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution1.hpp; sourceTree = "<group>"; };
 		1F014A8B202682F300D3A303 /* Solution2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution2.cpp; sourceTree = "<group>"; };
 		1F014A8C202682F300D3A303 /* Solution2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution2.hpp; sourceTree = "<group>"; };
-		1F260EEE2030FF98004503B8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1F260EF220310094004503B8 /* Solution1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution1.cpp; sourceTree = "<group>"; };
 		1F260EF320310094004503B8 /* Solution1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution1.hpp; sourceTree = "<group>"; };
 		1F260EF5203102E7004503B8 /* InterconvertStringsAndIntegers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InterconvertStringsAndIntegers.cpp; sourceTree = "<group>"; };
-		1F260EF820310734004503B8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1F2DD8AD2030F06700009B8B /* BuyAndSellAStockOnceTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BuyAndSellAStockOnceTests.cpp; sourceTree = "<group>"; };
 		1F2DD8B02030F2E300009B8B /* Solution1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution1.cpp; sourceTree = "<group>"; };
 		1F2DD8B12030F2E300009B8B /* Solution1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution1.hpp; sourceTree = "<group>"; };
@@ -76,10 +75,10 @@
 		1F354737203B4AC300EA9D40 /* ListNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ListNode.hpp; sourceTree = "<group>"; };
 		1F35473A203B4B0800EA9D40 /* MergeTwoSortedListsTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeTwoSortedListsTests.cpp; sourceTree = "<group>"; };
 		1F35473E203B578600EA9D40 /* ListNodeUtils.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ListNodeUtils.hpp; sourceTree = "<group>"; };
+		1F4559752041FF58000E7D8C /* StackWithMaxTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StackWithMaxTests.cpp; sourceTree = "<group>"; };
+		1F4559792041FF75000E7D8C /* Solution1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution1.hpp; sourceTree = "<group>"; };
 		1F5F20EF202FAC0C00B7439B /* ParityOfAWordTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ParityOfAWordTests.cpp; sourceTree = "<group>"; };
-		1F5F20F8202FAF1400B7439B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1F5F20FE202FB55500B7439B /* DutchFlagProblemTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DutchFlagProblemTests.cpp; sourceTree = "<group>"; };
-		1F5F2100202FBD6000B7439B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1F817BDF201407AD004B1C9D /* Solution3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution3.cpp; sourceTree = "<group>"; };
 		1F817BE0201407AD004B1C9D /* Solution3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution3.hpp; sourceTree = "<group>"; };
 		1FB389942031217000DD5CE6 /* Solution2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution2.cpp; sourceTree = "<group>"; };
@@ -135,7 +134,6 @@
 				1F014A8C202682F300D3A303 /* Solution2.hpp */,
 				1FDCFB9A2026B9AC00F0332F /* Solution3.cpp */,
 				1FDCFB9B2026B9AC00F0332F /* Solution3.hpp */,
-				1F5F2100202FBD6000B7439B /* README.md */,
 			);
 			path = DutchFlagProblem;
 			sourceTree = "<group>";
@@ -163,7 +161,6 @@
 				1F260EF320310094004503B8 /* Solution1.hpp */,
 				1FB389942031217000DD5CE6 /* Solution2.cpp */,
 				1FB389952031217000DD5CE6 /* Solution2.hpp */,
-				1F260EF820310734004503B8 /* README.md */,
 			);
 			path = InterconvertStringsAndIntegers;
 			sourceTree = "<group>";
@@ -173,7 +170,6 @@
 			children = (
 				1F2DD8B02030F2E300009B8B /* Solution1.cpp */,
 				1F2DD8B12030F2E300009B8B /* Solution1.hpp */,
-				1F260EEE2030FF98004503B8 /* README.md */,
 			);
 			path = BuyAndSellAStockOnce;
 			sourceTree = "<group>";
@@ -203,6 +199,30 @@
 				1F35473A203B4B0800EA9D40 /* MergeTwoSortedListsTests.cpp */,
 			);
 			path = LinkedLists;
+			sourceTree = "<group>";
+		};
+		1F4559732041FF26000E7D8C /* StacksAndQueues */ = {
+			isa = PBXGroup;
+			children = (
+				1F4559772041FF66000E7D8C /* StackWithMax */,
+			);
+			path = StacksAndQueues;
+			sourceTree = "<group>";
+		};
+		1F4559742041FF39000E7D8C /* StacksAndQueues */ = {
+			isa = PBXGroup;
+			children = (
+				1F4559752041FF58000E7D8C /* StackWithMaxTests.cpp */,
+			);
+			path = StacksAndQueues;
+			sourceTree = "<group>";
+		};
+		1F4559772041FF66000E7D8C /* StackWithMax */ = {
+			isa = PBXGroup;
+			children = (
+				1F4559792041FF75000E7D8C /* Solution1.hpp */,
+			);
+			path = StackWithMax;
 			sourceTree = "<group>";
 		};
 		1F5F20ED202FABF300B7439B /* PrimitiveTypes */ = {
@@ -248,6 +268,7 @@
 				1FC4534E2013B97100DBF2B2 /* PrimitiveTypes */,
 				1F260EEF20310021004503B8 /* Strings */,
 				1F354733203B4AC300EA9D40 /* LinkedLists */,
+				1F4559732041FF26000E7D8C /* StacksAndQueues */,
 				1FC453472013B92E00DBF2B2 /* main.cpp */,
 				1FC4535A2013C56E00DBF2B2 /* README.md */,
 			);
@@ -271,7 +292,6 @@
 				1FC4535C2013CC2600DBF2B2 /* Solution2.hpp */,
 				1F817BDF201407AD004B1C9D /* Solution3.cpp */,
 				1F817BE0201407AD004B1C9D /* Solution3.hpp */,
-				1F5F20F8202FAF1400B7439B /* README.md */,
 			);
 			path = ParityOfAWord;
 			sourceTree = "<group>";
@@ -283,6 +303,7 @@
 				1F5F20ED202FABF300B7439B /* PrimitiveTypes */,
 				1F260EF020310053004503B8 /* Strings */,
 				1F354739203B4ADF00EA9D40 /* LinkedLists */,
+				1F4559742041FF39000E7D8C /* StacksAndQueues */,
 				1FF2CA9220279DA500801650 /* main.cpp */,
 			);
 			path = UnitTests;
@@ -401,6 +422,7 @@
 				1F5F20F2202FADF000B7439B /* Solution2.cpp in Sources */,
 				1F35473B203B4B0800EA9D40 /* MergeTwoSortedListsTests.cpp in Sources */,
 				1F260EF6203102E7004503B8 /* InterconvertStringsAndIntegers.cpp in Sources */,
+				1F4559762041FF58000E7D8C /* StackWithMaxTests.cpp in Sources */,
 				1F5F20F3202FADF000B7439B /* Solution3.cpp in Sources */,
 				1F5F20F4202FADF000B7439B /* Solution1.cpp in Sources */,
 				1F5F20F5202FADF000B7439B /* Solution2.cpp in Sources */,

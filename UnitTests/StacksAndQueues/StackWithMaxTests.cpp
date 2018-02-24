@@ -6,4 +6,27 @@
 //  Copyright © 2018 Chris (Murim) Park. All rights reserved.
 //
 
-#include <stdio.h>
+#include <gtest/gtest.h>
+#include "../../EPI/StacksAndQueues/StackWithMax/Solution1.hpp"
+
+TEST(StackWithMaxTests, Max_WithPushedValues_ReturnsCorrectValue)
+{
+    S1::StackWithMax<int> stack;
+    stack.push(5);
+    stack.push(3);
+    stack.push(1);
+    stack.push(4);
+    EXPECT_EQ(5, stack.max());
+}
+
+TEST(StackWithMaxTests, Max_WithPushAndPoppedValues_ReturnsCorrectValue)
+{
+    S1::StackWithMax<int> stack;
+    stack.push(3);
+    stack.push(5);
+    stack.pop();
+    stack.push(4);
+    stack.push(1);
+    stack.pop();
+    EXPECT_EQ(4, stack.max());
+}
