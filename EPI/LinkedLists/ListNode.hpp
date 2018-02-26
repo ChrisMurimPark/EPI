@@ -12,8 +12,7 @@
 #include <memory>
 
 template <typename T>
-class ListNode {
-public:
+struct ListNode {
     ListNode() {}
     ListNode(const T &v) : value(v) {}
     T value;

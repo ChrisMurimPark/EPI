@@ -27,6 +27,8 @@
 		1F5F20F6202FADF000B7439B /* Solution3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FDCFB9A2026B9AC00F0332F /* Solution3.cpp */; };
 		1F5F20F7202FAE8800B7439B /* ParityOfAWordTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F20EF202FAC0C00B7439B /* ParityOfAWordTests.cpp */; };
 		1F5F20FF202FB55500B7439B /* DutchFlagProblemTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F20FE202FB55500B7439B /* DutchFlagProblemTests.cpp */; };
+		1F60B70020439676001DC75C /* IsHeightBalancedTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F60B6FF20439676001DC75C /* IsHeightBalancedTests.cpp */; };
+		1F60B70120439676001DC75C /* IsHeightBalancedTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F60B6FF20439676001DC75C /* IsHeightBalancedTests.cpp */; };
 		1F817BE1201407AD004B1C9D /* Solution3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F817BDF201407AD004B1C9D /* Solution3.cpp */; };
 		1FB389962031217000DD5CE6 /* Solution2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FB389942031217000DD5CE6 /* Solution2.cpp */; };
 		1FB389972031217000DD5CE6 /* Solution2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FB389942031217000DD5CE6 /* Solution2.cpp */; };
@@ -79,6 +81,9 @@
 		1F4559792041FF75000E7D8C /* Solution1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution1.hpp; sourceTree = "<group>"; };
 		1F5F20EF202FAC0C00B7439B /* ParityOfAWordTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ParityOfAWordTests.cpp; sourceTree = "<group>"; };
 		1F5F20FE202FB55500B7439B /* DutchFlagProblemTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DutchFlagProblemTests.cpp; sourceTree = "<group>"; };
+		1F60B6FC2043954C001DC75C /* BinaryTreeNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeNode.hpp; sourceTree = "<group>"; };
+		1F60B6FF20439676001DC75C /* IsHeightBalancedTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IsHeightBalancedTests.cpp; sourceTree = "<group>"; };
+		1F60B70320439A1F001DC75C /* Solution1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution1.hpp; sourceTree = "<group>"; };
 		1F817BDF201407AD004B1C9D /* Solution3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution3.cpp; sourceTree = "<group>"; };
 		1F817BE0201407AD004B1C9D /* Solution3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution3.hpp; sourceTree = "<group>"; };
 		1FB389942031217000DD5CE6 /* Solution2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution2.cpp; sourceTree = "<group>"; };
@@ -242,6 +247,31 @@
 			path = Arrays;
 			sourceTree = "<group>";
 		};
+		1F60B6F8204394E4001DC75C /* BinaryTrees */ = {
+			isa = PBXGroup;
+			children = (
+				1F60B6FC2043954C001DC75C /* BinaryTreeNode.hpp */,
+				1F60B6FA20439511001DC75C /* IsHeightBalanced */,
+			);
+			path = BinaryTrees;
+			sourceTree = "<group>";
+		};
+		1F60B6F9204394FE001DC75C /* BinaryTrees */ = {
+			isa = PBXGroup;
+			children = (
+				1F60B6FF20439676001DC75C /* IsHeightBalancedTests.cpp */,
+			);
+			path = BinaryTrees;
+			sourceTree = "<group>";
+		};
+		1F60B6FA20439511001DC75C /* IsHeightBalanced */ = {
+			isa = PBXGroup;
+			children = (
+				1F60B70320439A1F001DC75C /* Solution1.hpp */,
+			);
+			path = IsHeightBalanced;
+			sourceTree = "<group>";
+		};
 		1FC4533B2013B92E00DBF2B2 = {
 			isa = PBXGroup;
 			children = (
@@ -269,6 +299,7 @@
 				1F260EEF20310021004503B8 /* Strings */,
 				1F354733203B4AC300EA9D40 /* LinkedLists */,
 				1F4559732041FF26000E7D8C /* StacksAndQueues */,
+				1F60B6F8204394E4001DC75C /* BinaryTrees */,
 				1FC453472013B92E00DBF2B2 /* main.cpp */,
 				1FC4535A2013C56E00DBF2B2 /* README.md */,
 			);
@@ -304,6 +335,7 @@
 				1F260EF020310053004503B8 /* Strings */,
 				1F354739203B4ADF00EA9D40 /* LinkedLists */,
 				1F4559742041FF39000E7D8C /* StacksAndQueues */,
+				1F60B6F9204394FE001DC75C /* BinaryTrees */,
 				1FF2CA9220279DA500801650 /* main.cpp */,
 			);
 			path = UnitTests;
@@ -404,6 +436,7 @@
 				1FC4535D2013CC2600DBF2B2 /* Solution2.cpp in Sources */,
 				1F014A8D202682F300D3A303 /* Solution2.cpp in Sources */,
 				1F2DD8B22030F2E300009B8B /* Solution1.cpp in Sources */,
+				1F60B70020439676001DC75C /* IsHeightBalancedTests.cpp in Sources */,
 				1FDCFB9C2026B9AC00F0332F /* Solution3.cpp in Sources */,
 				1FC453522013B9FC00DBF2B2 /* Solution1.cpp in Sources */,
 				1FC453482013B92E00DBF2B2 /* main.cpp in Sources */,
@@ -422,6 +455,7 @@
 				1F5F20F2202FADF000B7439B /* Solution2.cpp in Sources */,
 				1F35473B203B4B0800EA9D40 /* MergeTwoSortedListsTests.cpp in Sources */,
 				1F260EF6203102E7004503B8 /* InterconvertStringsAndIntegers.cpp in Sources */,
+				1F60B70120439676001DC75C /* IsHeightBalancedTests.cpp in Sources */,
 				1F4559762041FF58000E7D8C /* StackWithMaxTests.cpp in Sources */,
 				1F5F20F3202FADF000B7439B /* Solution3.cpp in Sources */,
 				1F5F20F4202FADF000B7439B /* Solution1.cpp in Sources */,
