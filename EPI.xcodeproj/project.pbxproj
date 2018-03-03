@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		1F014A8620266CAF00D3A303 /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F014A8420266CAF00D3A303 /* Solution1.cpp */; };
 		1F014A8D202682F300D3A303 /* Solution2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F014A8B202682F300D3A303 /* Solution2.cpp */; };
+		1F234F40204B531A00E8CB9C /* MergeSortedFilesTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F234F3F204B531A00E8CB9C /* MergeSortedFilesTests.cpp */; };
+		1F234F44204B54EE00E8CB9C /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F234F42204B54EE00E8CB9C /* Solution1.cpp */; };
+		1F234F45204B54EE00E8CB9C /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F234F42204B54EE00E8CB9C /* Solution1.cpp */; };
 		1F260EF420310094004503B8 /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F260EF220310094004503B8 /* Solution1.cpp */; };
 		1F260EF6203102E7004503B8 /* InterconvertStringsAndIntegers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F260EF5203102E7004503B8 /* InterconvertStringsAndIntegers.cpp */; };
 		1F260EF7203103A0004503B8 /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F260EF220310094004503B8 /* Solution1.cpp */; };
@@ -66,6 +69,9 @@
 		1F014A8520266CAF00D3A303 /* Solution1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution1.hpp; sourceTree = "<group>"; };
 		1F014A8B202682F300D3A303 /* Solution2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution2.cpp; sourceTree = "<group>"; };
 		1F014A8C202682F300D3A303 /* Solution2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution2.hpp; sourceTree = "<group>"; };
+		1F234F3F204B531A00E8CB9C /* MergeSortedFilesTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSortedFilesTests.cpp; sourceTree = "<group>"; };
+		1F234F42204B54EE00E8CB9C /* Solution1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution1.cpp; sourceTree = "<group>"; };
+		1F234F43204B54EE00E8CB9C /* Solution1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution1.hpp; sourceTree = "<group>"; };
 		1F260EF220310094004503B8 /* Solution1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution1.cpp; sourceTree = "<group>"; };
 		1F260EF320310094004503B8 /* Solution1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution1.hpp; sourceTree = "<group>"; };
 		1F260EF5203102E7004503B8 /* InterconvertStringsAndIntegers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InterconvertStringsAndIntegers.cpp; sourceTree = "<group>"; };
@@ -141,6 +147,31 @@
 				1FDCFB9B2026B9AC00F0332F /* Solution3.hpp */,
 			);
 			path = DutchFlagProblem;
+			sourceTree = "<group>";
+		};
+		1F234F3D204B52EA00E8CB9C /* Heaps */ = {
+			isa = PBXGroup;
+			children = (
+				1F234F41204B54DE00E8CB9C /* MergeSortedFiles */,
+			);
+			path = Heaps;
+			sourceTree = "<group>";
+		};
+		1F234F3E204B52FA00E8CB9C /* Heaps */ = {
+			isa = PBXGroup;
+			children = (
+				1F234F3F204B531A00E8CB9C /* MergeSortedFilesTests.cpp */,
+			);
+			path = Heaps;
+			sourceTree = "<group>";
+		};
+		1F234F41204B54DE00E8CB9C /* MergeSortedFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1F234F42204B54EE00E8CB9C /* Solution1.cpp */,
+				1F234F43204B54EE00E8CB9C /* Solution1.hpp */,
+			);
+			path = MergeSortedFiles;
 			sourceTree = "<group>";
 		};
 		1F260EEF20310021004503B8 /* Strings */ = {
@@ -300,6 +331,7 @@
 				1F354733203B4AC300EA9D40 /* LinkedLists */,
 				1F4559732041FF26000E7D8C /* StacksAndQueues */,
 				1F60B6F8204394E4001DC75C /* BinaryTrees */,
+				1F234F3D204B52EA00E8CB9C /* Heaps */,
 				1FC453472013B92E00DBF2B2 /* main.cpp */,
 				1FC4535A2013C56E00DBF2B2 /* README.md */,
 			);
@@ -336,6 +368,7 @@
 				1F354739203B4ADF00EA9D40 /* LinkedLists */,
 				1F4559742041FF39000E7D8C /* StacksAndQueues */,
 				1F60B6F9204394FE001DC75C /* BinaryTrees */,
+				1F234F3E204B52FA00E8CB9C /* Heaps */,
 				1FF2CA9220279DA500801650 /* main.cpp */,
 			);
 			path = UnitTests;
@@ -437,6 +470,7 @@
 				1F014A8D202682F300D3A303 /* Solution2.cpp in Sources */,
 				1F2DD8B22030F2E300009B8B /* Solution1.cpp in Sources */,
 				1F60B70020439676001DC75C /* IsHeightBalancedTests.cpp in Sources */,
+				1F234F44204B54EE00E8CB9C /* Solution1.cpp in Sources */,
 				1FDCFB9C2026B9AC00F0332F /* Solution3.cpp in Sources */,
 				1FC453522013B9FC00DBF2B2 /* Solution1.cpp in Sources */,
 				1FC453482013B92E00DBF2B2 /* main.cpp in Sources */,
@@ -447,11 +481,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F234F45204B54EE00E8CB9C /* Solution1.cpp in Sources */,
 				1F35473C203B508D00EA9D40 /* Solution1.cpp in Sources */,
 				1F260EF7203103A0004503B8 /* Solution1.cpp in Sources */,
 				1F2DD8B32030F41000009B8B /* Solution1.cpp in Sources */,
 				1F2DD8AE2030F06700009B8B /* BuyAndSellAStockOnceTests.cpp in Sources */,
 				1F5F20F1202FADF000B7439B /* Solution1.cpp in Sources */,
+				1F234F40204B531A00E8CB9C /* MergeSortedFilesTests.cpp in Sources */,
 				1F5F20F2202FADF000B7439B /* Solution2.cpp in Sources */,
 				1F35473B203B4B0800EA9D40 /* MergeTwoSortedListsTests.cpp in Sources */,
 				1F260EF6203102E7004503B8 /* InterconvertStringsAndIntegers.cpp in Sources */,
