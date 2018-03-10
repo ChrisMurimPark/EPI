@@ -9,7 +9,7 @@
 #include <gtest/gtest.h>
 #include "../../EPI/Searching/SearchSortedForFirstOccurrence/Solution1.hpp"
 
-TEST(SearchSortedForFirstOccurrence, Search_GivenRepeatingElements_ReturnsFirstOccurrence)
+TEST(SearchSortedForFirstOccurrenceTests, Search_GivenRepeatingElements_ReturnsFirstOccurrence)
 {
     std::vector<int> v = {-14, -12, 2, 108, 108, 243, 285, 285};
     const int k = 108;
@@ -18,7 +18,7 @@ TEST(SearchSortedForFirstOccurrence, Search_GivenRepeatingElements_ReturnsFirstO
     EXPECT_EQ(expected, actual);
 }
 
-TEST(SearchSortedForFirstOccurrence, Search_GivenElementNotFound_ReturnsNegativeOne)
+TEST(SearchSortedForFirstOccurrenceTests, Search_GivenElementNotFound_ReturnsNegativeOne)
 {
     std::vector<int> v = {-14, -12, 2, 108, 108, 243, 285, 285};
     const int k = 109;
