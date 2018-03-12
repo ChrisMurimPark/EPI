@@ -21,6 +21,9 @@
 		1F354738203B4AC300EA9D40 /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F354735203B4AC300EA9D40 /* Solution1.cpp */; };
 		1F35473B203B4B0800EA9D40 /* MergeTwoSortedListsTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F35473A203B4B0800EA9D40 /* MergeTwoSortedListsTests.cpp */; };
 		1F35473C203B508D00EA9D40 /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F354735203B4AC300EA9D40 /* Solution1.cpp */; };
+		1F37D3922055FFF200873AB0 /* IsAnonymousLetterConstructibleTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F37D3912055FFF200873AB0 /* IsAnonymousLetterConstructibleTests.cpp */; };
+		1F37D3952055FFFD00873AB0 /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F37D3932055FFFD00873AB0 /* Solution1.cpp */; };
+		1F37D3962055FFFD00873AB0 /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F37D3932055FFFD00873AB0 /* Solution1.cpp */; };
 		1F4559762041FF58000E7D8C /* StackWithMaxTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F4559752041FF58000E7D8C /* StackWithMaxTests.cpp */; };
 		1F5F20F1202FADF000B7439B /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC453502013B9FC00DBF2B2 /* Solution1.cpp */; };
 		1F5F20F2202FADF000B7439B /* Solution2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC4535B2013CC2600DBF2B2 /* Solution2.cpp */; };
@@ -90,6 +93,9 @@
 		1F354737203B4AC300EA9D40 /* ListNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ListNode.hpp; sourceTree = "<group>"; };
 		1F35473A203B4B0800EA9D40 /* MergeTwoSortedListsTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeTwoSortedListsTests.cpp; sourceTree = "<group>"; };
 		1F35473E203B578600EA9D40 /* ListNodeUtils.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ListNodeUtils.hpp; sourceTree = "<group>"; };
+		1F37D3912055FFF200873AB0 /* IsAnonymousLetterConstructibleTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IsAnonymousLetterConstructibleTests.cpp; sourceTree = "<group>"; };
+		1F37D3932055FFFD00873AB0 /* Solution1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution1.cpp; sourceTree = "<group>"; };
+		1F37D3942055FFFD00873AB0 /* Solution1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution1.hpp; sourceTree = "<group>"; };
 		1F4559752041FF58000E7D8C /* StackWithMaxTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StackWithMaxTests.cpp; sourceTree = "<group>"; };
 		1F4559792041FF75000E7D8C /* Solution1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution1.hpp; sourceTree = "<group>"; };
 		1F5F20EF202FAC0C00B7439B /* ParityOfAWordTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ParityOfAWordTests.cpp; sourceTree = "<group>"; };
@@ -250,6 +256,15 @@
 			path = LinkedLists;
 			sourceTree = "<group>";
 		};
+		1F37D38E2055FFB400873AB0 /* IsAnonymousLetterConstructible */ = {
+			isa = PBXGroup;
+			children = (
+				1F37D3932055FFFD00873AB0 /* Solution1.cpp */,
+				1F37D3942055FFFD00873AB0 /* Solution1.hpp */,
+			);
+			path = IsAnonymousLetterConstructible;
+			sourceTree = "<group>";
+		};
 		1F4559732041FF26000E7D8C /* StacksAndQueues */ = {
 			isa = PBXGroup;
 			children = (
@@ -403,6 +418,7 @@
 			isa = PBXGroup;
 			children = (
 				1FE1DBA9205434AB0092368A /* HasPalindromicPermutation */,
+				1F37D38E2055FFB400873AB0 /* IsAnonymousLetterConstructible */,
 			);
 			path = HashTables;
 			sourceTree = "<group>";
@@ -411,6 +427,7 @@
 			isa = PBXGroup;
 			children = (
 				1FE1DBA7205434A80092368A /* HasPalindromicPermutationTests.cpp */,
+				1F37D3912055FFF200873AB0 /* IsAnonymousLetterConstructibleTests.cpp */,
 			);
 			path = HashTables;
 			sourceTree = "<group>";
@@ -544,6 +561,7 @@
 				1FC453522013B9FC00DBF2B2 /* Solution1.cpp in Sources */,
 				1F921BD7204C7DDE0091CFC5 /* Solution1.cpp in Sources */,
 				1FC453482013B92E00DBF2B2 /* main.cpp in Sources */,
+				1F37D3952055FFFD00873AB0 /* Solution1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,8 +591,10 @@
 				1F5F20F7202FAE8800B7439B /* ParityOfAWordTests.cpp in Sources */,
 				1F5F20FF202FB55500B7439B /* DutchFlagProblemTests.cpp in Sources */,
 				1FB389972031217000DD5CE6 /* Solution2.cpp in Sources */,
+				1F37D3962055FFFD00873AB0 /* Solution1.cpp in Sources */,
 				1F5F20F6202FADF000B7439B /* Solution3.cpp in Sources */,
 				1FF2CA9320279DA500801650 /* main.cpp in Sources */,
+				1F37D3922055FFF200873AB0 /* IsAnonymousLetterConstructibleTests.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
