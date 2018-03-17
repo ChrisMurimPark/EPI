@@ -24,6 +24,8 @@
 		1F37D3922055FFF200873AB0 /* IsAnonymousLetterConstructibleTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F37D3912055FFF200873AB0 /* IsAnonymousLetterConstructibleTests.cpp */; };
 		1F37D3952055FFFD00873AB0 /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F37D3932055FFFD00873AB0 /* Solution1.cpp */; };
 		1F37D3962055FFFD00873AB0 /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F37D3932055FFFD00873AB0 /* Solution1.cpp */; };
+		1F4062AF205DC3F100D24A65 /* Solution2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F4062AD205DC3F100D24A65 /* Solution2.cpp */; };
+		1F4062B0205DC3F100D24A65 /* Solution2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F4062AD205DC3F100D24A65 /* Solution2.cpp */; };
 		1F4559762041FF58000E7D8C /* StackWithMaxTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F4559752041FF58000E7D8C /* StackWithMaxTests.cpp */; };
 		1F4751D1205C5D84007728FA /* SortedIntersectionTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F4751D0205C5D84007728FA /* SortedIntersectionTests.cpp */; };
 		1F4751D5205C5FEB007728FA /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F4751D3205C5FEB007728FA /* Solution1.cpp */; };
@@ -102,6 +104,8 @@
 		1F37D3912055FFF200873AB0 /* IsAnonymousLetterConstructibleTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IsAnonymousLetterConstructibleTests.cpp; sourceTree = "<group>"; };
 		1F37D3932055FFFD00873AB0 /* Solution1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution1.cpp; sourceTree = "<group>"; };
 		1F37D3942055FFFD00873AB0 /* Solution1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution1.hpp; sourceTree = "<group>"; };
+		1F4062AD205DC3F100D24A65 /* Solution2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution2.cpp; sourceTree = "<group>"; };
+		1F4062AE205DC3F100D24A65 /* Solution2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution2.hpp; sourceTree = "<group>"; };
 		1F4559752041FF58000E7D8C /* StackWithMaxTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StackWithMaxTests.cpp; sourceTree = "<group>"; };
 		1F4559792041FF75000E7D8C /* Solution1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution1.hpp; sourceTree = "<group>"; };
 		1F4751D0205C5D84007728FA /* SortedIntersectionTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortedIntersectionTests.cpp; sourceTree = "<group>"; };
@@ -388,6 +392,8 @@
 			children = (
 				1F6FE385205DB86900A30DFB /* Solution1.cpp */,
 				1F6FE386205DB86900A30DFB /* Solution1.hpp */,
+				1F4062AD205DC3F100D24A65 /* Solution2.cpp */,
+				1F4062AE205DC3F100D24A65 /* Solution2.hpp */,
 			);
 			path = IsBST;
 			sourceTree = "<group>";
@@ -632,6 +638,7 @@
 				1F2DD8B22030F2E300009B8B /* Solution1.cpp in Sources */,
 				1F60B70020439676001DC75C /* IsHeightBalancedTests.cpp in Sources */,
 				1F234F44204B54EE00E8CB9C /* Solution1.cpp in Sources */,
+				1F4062AF205DC3F100D24A65 /* Solution2.cpp in Sources */,
 				1FDCFB9C2026B9AC00F0332F /* Solution3.cpp in Sources */,
 				1FE1DBAC205434C00092368A /* Solution1.cpp in Sources */,
 				1FC453522013B9FC00DBF2B2 /* Solution1.cpp in Sources */,
@@ -662,6 +669,7 @@
 				1FE1DBAD205434C00092368A /* Solution1.cpp in Sources */,
 				1F60B70120439676001DC75C /* IsHeightBalancedTests.cpp in Sources */,
 				1F4559762041FF58000E7D8C /* StackWithMaxTests.cpp in Sources */,
+				1F4062B0205DC3F100D24A65 /* Solution2.cpp in Sources */,
 				1F921BD8204C7DDE0091CFC5 /* Solution1.cpp in Sources */,
 				1F5F20F3202FADF000B7439B /* Solution3.cpp in Sources */,
 				1F6FE384205DB85B00A30DFB /* IsBSTTests.cpp in Sources */,
