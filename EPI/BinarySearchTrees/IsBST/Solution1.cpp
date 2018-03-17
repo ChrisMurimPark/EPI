@@ -37,8 +37,9 @@ SubTreeData IsBSTHelper(const std::unique_ptr<BinaryTreeNode<int>> &tree)
 }
     
 // N = number of nodes in tree
+// h = height of tree
 // time: O(N)
-// space: O(N) from call stack
+// space: O(h) from call stack
 bool IsBST(const std::unique_ptr<BinaryTreeNode<int>> &tree)
 {
     return IsBSTHelper(tree).is_bst;
