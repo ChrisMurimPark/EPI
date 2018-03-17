@@ -9,7 +9,7 @@
 #ifndef Solution1_hpp
 #define Solution1_hpp
 
-#include "BinaryTreeNode.hpp"
+#include "../../Common/BinaryTreeNode.hpp"
 
 namespace S1
 {

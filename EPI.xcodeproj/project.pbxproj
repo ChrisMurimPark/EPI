@@ -38,6 +38,9 @@
 		1F5F20FF202FB55500B7439B /* DutchFlagProblemTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F20FE202FB55500B7439B /* DutchFlagProblemTests.cpp */; };
 		1F60B70020439676001DC75C /* IsHeightBalancedTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F60B6FF20439676001DC75C /* IsHeightBalancedTests.cpp */; };
 		1F60B70120439676001DC75C /* IsHeightBalancedTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F60B6FF20439676001DC75C /* IsHeightBalancedTests.cpp */; };
+		1F6FE384205DB85B00A30DFB /* IsBSTTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F6FE383205DB85B00A30DFB /* IsBSTTests.cpp */; };
+		1F6FE387205DB86900A30DFB /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F6FE385205DB86900A30DFB /* Solution1.cpp */; };
+		1F6FE388205DB86900A30DFB /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F6FE385205DB86900A30DFB /* Solution1.cpp */; };
 		1F817BE1201407AD004B1C9D /* Solution3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F817BDF201407AD004B1C9D /* Solution3.cpp */; };
 		1F921BD7204C7DDE0091CFC5 /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F921BD5204C7DDE0091CFC5 /* Solution1.cpp */; };
 		1F921BD8204C7DDE0091CFC5 /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F921BD5204C7DDE0091CFC5 /* Solution1.cpp */; };
@@ -109,6 +112,9 @@
 		1F60B6FC2043954C001DC75C /* BinaryTreeNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeNode.hpp; sourceTree = "<group>"; };
 		1F60B6FF20439676001DC75C /* IsHeightBalancedTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IsHeightBalancedTests.cpp; sourceTree = "<group>"; };
 		1F60B70320439A1F001DC75C /* Solution1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution1.hpp; sourceTree = "<group>"; };
+		1F6FE383205DB85B00A30DFB /* IsBSTTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IsBSTTests.cpp; sourceTree = "<group>"; };
+		1F6FE385205DB86900A30DFB /* Solution1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution1.cpp; sourceTree = "<group>"; };
+		1F6FE386205DB86900A30DFB /* Solution1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution1.hpp; sourceTree = "<group>"; };
 		1F817BDF201407AD004B1C9D /* Solution3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution3.cpp; sourceTree = "<group>"; };
 		1F817BE0201407AD004B1C9D /* Solution3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution3.hpp; sourceTree = "<group>"; };
 		1F921BD5204C7DDE0091CFC5 /* Solution1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution1.cpp; sourceTree = "<group>"; };
@@ -340,7 +346,6 @@
 		1F60B6F8204394E4001DC75C /* BinaryTrees */ = {
 			isa = PBXGroup;
 			children = (
-				1F60B6FC2043954C001DC75C /* BinaryTreeNode.hpp */,
 				1F60B6FA20439511001DC75C /* IsHeightBalanced */,
 			);
 			path = BinaryTrees;
@@ -360,6 +365,39 @@
 				1F60B70320439A1F001DC75C /* Solution1.hpp */,
 			);
 			path = IsHeightBalanced;
+			sourceTree = "<group>";
+		};
+		1F6FE37D205DB81500A30DFB /* BinarySearchTrees */ = {
+			isa = PBXGroup;
+			children = (
+				1F6FE383205DB85B00A30DFB /* IsBSTTests.cpp */,
+			);
+			path = BinarySearchTrees;
+			sourceTree = "<group>";
+		};
+		1F6FE37E205DB82200A30DFB /* BinarySearchTrees */ = {
+			isa = PBXGroup;
+			children = (
+				1F6FE37F205DB83300A30DFB /* IsBST */,
+			);
+			path = BinarySearchTrees;
+			sourceTree = "<group>";
+		};
+		1F6FE37F205DB83300A30DFB /* IsBST */ = {
+			isa = PBXGroup;
+			children = (
+				1F6FE385205DB86900A30DFB /* Solution1.cpp */,
+				1F6FE386205DB86900A30DFB /* Solution1.hpp */,
+			);
+			path = IsBST;
+			sourceTree = "<group>";
+		};
+		1F6FE389205DB88300A30DFB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1F60B6FC2043954C001DC75C /* BinaryTreeNode.hpp */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		1F921BD2204C7D9F0091CFC5 /* Searching */ = {
@@ -409,6 +447,7 @@
 		1FC453462013B92E00DBF2B2 /* EPI */ = {
 			isa = PBXGroup;
 			children = (
+				1F6FE389205DB88300A30DFB /* Common */,
 				1F014A8220266C8E00D3A303 /* Arrays */,
 				1FC4534E2013B97100DBF2B2 /* PrimitiveTypes */,
 				1F260EEF20310021004503B8 /* Strings */,
@@ -419,6 +458,7 @@
 				1F921BD3204C7DB60091CFC5 /* Searching */,
 				1FE1DBA5205434730092368A /* HashTables */,
 				1F4751CD205C5D3B007728FA /* Sorting */,
+				1F6FE37E205DB82200A30DFB /* BinarySearchTrees */,
 				1FC453472013B92E00DBF2B2 /* main.cpp */,
 				1FC4535A2013C56E00DBF2B2 /* README.md */,
 			);
@@ -486,6 +526,7 @@
 				1F921BD2204C7D9F0091CFC5 /* Searching */,
 				1FE1DBA62054347F0092368A /* HashTables */,
 				1F4751CE205C5D44007728FA /* Sorting */,
+				1F6FE37D205DB81500A30DFB /* BinarySearchTrees */,
 				1FF2CA9220279DA500801650 /* main.cpp */,
 			);
 			path = UnitTests;
@@ -580,6 +621,7 @@
 			files = (
 				1F4751D5205C5FEB007728FA /* Solution1.cpp in Sources */,
 				1F260EF420310094004503B8 /* Solution1.cpp in Sources */,
+				1F6FE387205DB86900A30DFB /* Solution1.cpp in Sources */,
 				1F014A8620266CAF00D3A303 /* Solution1.cpp in Sources */,
 				1F817BE1201407AD004B1C9D /* Solution3.cpp in Sources */,
 				1FB389962031217000DD5CE6 /* Solution2.cpp in Sources */,
@@ -606,6 +648,7 @@
 				1F234F45204B54EE00E8CB9C /* Solution1.cpp in Sources */,
 				1F35473C203B508D00EA9D40 /* Solution1.cpp in Sources */,
 				1F260EF7203103A0004503B8 /* Solution1.cpp in Sources */,
+				1F6FE388205DB86900A30DFB /* Solution1.cpp in Sources */,
 				1F2DD8B32030F41000009B8B /* Solution1.cpp in Sources */,
 				1F2DD8AE2030F06700009B8B /* BuyAndSellAStockOnceTests.cpp in Sources */,
 				1F5F20F1202FADF000B7439B /* Solution1.cpp in Sources */,
@@ -621,6 +664,7 @@
 				1F4559762041FF58000E7D8C /* StackWithMaxTests.cpp in Sources */,
 				1F921BD8204C7DDE0091CFC5 /* Solution1.cpp in Sources */,
 				1F5F20F3202FADF000B7439B /* Solution3.cpp in Sources */,
+				1F6FE384205DB85B00A30DFB /* IsBSTTests.cpp in Sources */,
 				1F5F20F4202FADF000B7439B /* Solution1.cpp in Sources */,
 				1F5F20F5202FADF000B7439B /* Solution2.cpp in Sources */,
 				1F5F20F7202FAE8800B7439B /* ParityOfAWordTests.cpp in Sources */,
