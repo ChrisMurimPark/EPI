@@ -48,6 +48,10 @@
 		1F921BD8204C7DDE0091CFC5 /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F921BD5204C7DDE0091CFC5 /* Solution1.cpp */; };
 		1F921BDB204C819E0091CFC5 /* SearchSortedForFirstOccurrence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F921BDA204C819E0091CFC5 /* SearchSortedForFirstOccurrence.cpp */; };
 		1F921BDC204C819E0091CFC5 /* SearchSortedForFirstOccurrence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F921BDA204C819E0091CFC5 /* SearchSortedForFirstOccurrence.cpp */; };
+		1FAB069C206872FF007DFF69 /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB069A206872FF007DFF69 /* Solution1.cpp */; };
+		1FAB069D206872FF007DFF69 /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB069A206872FF007DFF69 /* Solution1.cpp */; };
+		1FAB06A0206874C3007DFF69 /* TowersOfHanoi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB069F206874C3007DFF69 /* TowersOfHanoi.cpp */; };
+		1FAB06A1206874C3007DFF69 /* TowersOfHanoi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB069F206874C3007DFF69 /* TowersOfHanoi.cpp */; };
 		1FB389962031217000DD5CE6 /* Solution2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FB389942031217000DD5CE6 /* Solution2.cpp */; };
 		1FB389972031217000DD5CE6 /* Solution2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FB389942031217000DD5CE6 /* Solution2.cpp */; };
 		1FC453482013B92E00DBF2B2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC453472013B92E00DBF2B2 /* main.cpp */; };
@@ -124,6 +128,9 @@
 		1F921BD5204C7DDE0091CFC5 /* Solution1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution1.cpp; sourceTree = "<group>"; };
 		1F921BD6204C7DDE0091CFC5 /* Solution1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution1.hpp; sourceTree = "<group>"; };
 		1F921BDA204C819E0091CFC5 /* SearchSortedForFirstOccurrence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SearchSortedForFirstOccurrence.cpp; sourceTree = "<group>"; };
+		1FAB069A206872FF007DFF69 /* Solution1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution1.cpp; sourceTree = "<group>"; };
+		1FAB069B206872FF007DFF69 /* Solution1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution1.hpp; sourceTree = "<group>"; };
+		1FAB069F206874C3007DFF69 /* TowersOfHanoi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TowersOfHanoi.cpp; sourceTree = "<group>"; };
 		1FB389942031217000DD5CE6 /* Solution2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution2.cpp; sourceTree = "<group>"; };
 		1FB389952031217000DD5CE6 /* Solution2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution2.hpp; sourceTree = "<group>"; };
 		1FC453442013B92E00DBF2B2 /* EPI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EPI; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -431,6 +438,31 @@
 			path = SearchSortedForFirstOccurrence;
 			sourceTree = "<group>";
 		};
+		1FAB0698206872DD007DFF69 /* Recursion */ = {
+			isa = PBXGroup;
+			children = (
+				1FAB0699206872E8007DFF69 /* TowersOfHanoi */,
+			);
+			path = Recursion;
+			sourceTree = "<group>";
+		};
+		1FAB0699206872E8007DFF69 /* TowersOfHanoi */ = {
+			isa = PBXGroup;
+			children = (
+				1FAB069A206872FF007DFF69 /* Solution1.cpp */,
+				1FAB069B206872FF007DFF69 /* Solution1.hpp */,
+			);
+			path = TowersOfHanoi;
+			sourceTree = "<group>";
+		};
+		1FAB069E206874B3007DFF69 /* Recursion */ = {
+			isa = PBXGroup;
+			children = (
+				1FAB069F206874C3007DFF69 /* TowersOfHanoi.cpp */,
+			);
+			path = Recursion;
+			sourceTree = "<group>";
+		};
 		1FC4533B2013B92E00DBF2B2 = {
 			isa = PBXGroup;
 			children = (
@@ -465,6 +497,7 @@
 				1FE1DBA5205434730092368A /* HashTables */,
 				1F4751CD205C5D3B007728FA /* Sorting */,
 				1F6FE37E205DB82200A30DFB /* BinarySearchTrees */,
+				1FAB0698206872DD007DFF69 /* Recursion */,
 				1FC453472013B92E00DBF2B2 /* main.cpp */,
 				1FC4535A2013C56E00DBF2B2 /* README.md */,
 			);
@@ -533,6 +566,7 @@
 				1FE1DBA62054347F0092368A /* HashTables */,
 				1F4751CE205C5D44007728FA /* Sorting */,
 				1F6FE37D205DB81500A30DFB /* BinarySearchTrees */,
+				1FAB069E206874B3007DFF69 /* Recursion */,
 				1FF2CA9220279DA500801650 /* main.cpp */,
 			);
 			path = UnitTests;
@@ -638,6 +672,8 @@
 				1F2DD8B22030F2E300009B8B /* Solution1.cpp in Sources */,
 				1F60B70020439676001DC75C /* IsHeightBalancedTests.cpp in Sources */,
 				1F234F44204B54EE00E8CB9C /* Solution1.cpp in Sources */,
+				1FAB069C206872FF007DFF69 /* Solution1.cpp in Sources */,
+				1FAB06A0206874C3007DFF69 /* TowersOfHanoi.cpp in Sources */,
 				1F4062AF205DC3F100D24A65 /* Solution2.cpp in Sources */,
 				1FDCFB9C2026B9AC00F0332F /* Solution3.cpp in Sources */,
 				1FE1DBAC205434C00092368A /* Solution1.cpp in Sources */,
@@ -662,6 +698,7 @@
 				1FE1DBA8205434A80092368A /* HasPalindromicPermutationTests.cpp in Sources */,
 				1F921BDC204C819E0091CFC5 /* SearchSortedForFirstOccurrence.cpp in Sources */,
 				1F234F40204B531A00E8CB9C /* MergeSortedFilesTests.cpp in Sources */,
+				1FAB069D206872FF007DFF69 /* Solution1.cpp in Sources */,
 				1F5F20F2202FADF000B7439B /* Solution2.cpp in Sources */,
 				1F35473B203B4B0800EA9D40 /* MergeTwoSortedListsTests.cpp in Sources */,
 				1F260EF6203102E7004503B8 /* InterconvertStringsAndIntegers.cpp in Sources */,
@@ -676,6 +713,7 @@
 				1F5F20F4202FADF000B7439B /* Solution1.cpp in Sources */,
 				1F5F20F5202FADF000B7439B /* Solution2.cpp in Sources */,
 				1F5F20F7202FAE8800B7439B /* ParityOfAWordTests.cpp in Sources */,
+				1FAB06A1206874C3007DFF69 /* TowersOfHanoi.cpp in Sources */,
 				1F4751D1205C5D84007728FA /* SortedIntersectionTests.cpp in Sources */,
 				1F5F20FF202FB55500B7439B /* DutchFlagProblemTests.cpp in Sources */,
 				1FB389972031217000DD5CE6 /* Solution2.cpp in Sources */,
