@@ -9,6 +9,13 @@
 #ifndef Vertex_hpp
 #define Vertex_hpp
 
-#include <stdio.h>
+struct Vertex
+{
+    size_t x, y;
+    bool operator== (const Vertex &other) const
+    {
+        return this->x == other.x && this->y == other.y;
+    }
+};
 
 #endif /* Vertex_hpp */

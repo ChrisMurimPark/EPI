@@ -9,6 +9,16 @@
 #ifndef Solution1_hpp
 #define Solution1_hpp
 
-#include <stdio.h>
+#include <vector>
+#include "Maze.hpp"
+
+struct Vertex;
+
+namespace S1
+{
+    
+std::vector<Vertex> FindPath(Maze &maze, const Vertex &start, const Vertex &end);
+
+} // namespace S1
 
 #endif /* Solution1_hpp */

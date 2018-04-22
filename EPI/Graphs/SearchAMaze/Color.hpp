@@ -9,6 +9,9 @@
 #ifndef Color_hpp
 #define Color_hpp
 
-#include <stdio.h>
+enum Color
+{
+    BLACK, WHITE
+};
 
 #endif /* Color_hpp */

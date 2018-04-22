@@ -34,6 +34,10 @@
 		1F5E174C208BC7D0007B6C99 /* ThreeSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F5E174A208BC7D0007B6C99 /* ThreeSum.cpp */; };
 		1F5E174F208BC96C007B6C99 /* ThreeSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F5E174D208BC96C007B6C99 /* ThreeSum.cpp */; };
 		1F5E1750208BC96C007B6C99 /* ThreeSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F5E174D208BC96C007B6C99 /* ThreeSum.cpp */; };
+		1F5E1756208CF686007B6C99 /* SearchAMaze.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F5E1755208CF686007B6C99 /* SearchAMaze.cpp */; };
+		1F5E1757208CF686007B6C99 /* SearchAMaze.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F5E1755208CF686007B6C99 /* SearchAMaze.cpp */; };
+		1F5E175B208CF6A6007B6C99 /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F5E1759208CF6A6007B6C99 /* Solution1.cpp */; };
+		1F5E175C208CF6A6007B6C99 /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F5E1759208CF6A6007B6C99 /* Solution1.cpp */; };
 		1F5F20F1202FADF000B7439B /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC453502013B9FC00DBF2B2 /* Solution1.cpp */; };
 		1F5F20F2202FADF000B7439B /* Solution2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC4535B2013CC2600DBF2B2 /* Solution2.cpp */; };
 		1F5F20F3202FADF000B7439B /* Solution3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F817BDF201407AD004B1C9D /* Solution3.cpp */; };
@@ -122,6 +126,12 @@
 		1F5E174A208BC7D0007B6C99 /* ThreeSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ThreeSum.cpp; sourceTree = "<group>"; };
 		1F5E174D208BC96C007B6C99 /* ThreeSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ThreeSum.cpp; sourceTree = "<group>"; };
 		1F5E174E208BC96C007B6C99 /* ThreeSum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ThreeSum.hpp; sourceTree = "<group>"; };
+		1F5E1755208CF686007B6C99 /* SearchAMaze.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SearchAMaze.cpp; sourceTree = "<group>"; };
+		1F5E1759208CF6A6007B6C99 /* Solution1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution1.cpp; sourceTree = "<group>"; };
+		1F5E175A208CF6A6007B6C99 /* Solution1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution1.hpp; sourceTree = "<group>"; };
+		1F5E1761208CF71F007B6C99 /* Vertex.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vertex.hpp; sourceTree = "<group>"; };
+		1F5E1766208CF7FB007B6C99 /* Maze.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Maze.hpp; sourceTree = "<group>"; };
+		1F5E176A208CF891007B6C99 /* Color.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Color.hpp; sourceTree = "<group>"; };
 		1F5F20EF202FAC0C00B7439B /* ParityOfAWordTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ParityOfAWordTests.cpp; sourceTree = "<group>"; };
 		1F5F20FE202FB55500B7439B /* DutchFlagProblemTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DutchFlagProblemTests.cpp; sourceTree = "<group>"; };
 		1F60B6FC2043954C001DC75C /* BinaryTreeNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeNode.hpp; sourceTree = "<group>"; };
@@ -361,6 +371,48 @@
 			path = GreedyAlgorithmsAndInvariants;
 			sourceTree = "<group>";
 		};
+		1F5E1751208CF61C007B6C99 /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+				1F5E1758208CF699007B6C99 /* SearchAMaze */,
+			);
+			path = Graphs;
+			sourceTree = "<group>";
+		};
+		1F5E1752208CF627007B6C99 /* DynamicProgramming */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DynamicProgramming;
+			sourceTree = "<group>";
+		};
+		1F5E1753208CF64C007B6C99 /* DynamicProgramming */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DynamicProgramming;
+			sourceTree = "<group>";
+		};
+		1F5E1754208CF658007B6C99 /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+				1F5E1755208CF686007B6C99 /* SearchAMaze.cpp */,
+			);
+			path = Graphs;
+			sourceTree = "<group>";
+		};
+		1F5E1758208CF699007B6C99 /* SearchAMaze */ = {
+			isa = PBXGroup;
+			children = (
+				1F5E1759208CF6A6007B6C99 /* Solution1.cpp */,
+				1F5E175A208CF6A6007B6C99 /* Solution1.hpp */,
+				1F5E176A208CF891007B6C99 /* Color.hpp */,
+				1F5E1766208CF7FB007B6C99 /* Maze.hpp */,
+				1F5E1761208CF71F007B6C99 /* Vertex.hpp */,
+			);
+			path = SearchAMaze;
+			sourceTree = "<group>";
+		};
 		1F5F20ED202FABF300B7439B /* PrimitiveTypes */ = {
 			isa = PBXGroup;
 			children = (
@@ -522,7 +574,9 @@
 				1F4751CD205C5D3B007728FA /* Sorting */,
 				1F6FE37E205DB82200A30DFB /* BinarySearchTrees */,
 				1FAB0698206872DD007DFF69 /* Recursion */,
+				1F5E1752208CF627007B6C99 /* DynamicProgramming */,
 				1F5E1748208BC793007B6C99 /* GreedyAlgorithmsAndInvariants */,
+				1F5E1751208CF61C007B6C99 /* Graphs */,
 				1FC453472013B92E00DBF2B2 /* main.cpp */,
 				1FC4535A2013C56E00DBF2B2 /* README.md */,
 			);
@@ -592,7 +646,9 @@
 				1F4751CE205C5D44007728FA /* Sorting */,
 				1F6FE37D205DB81500A30DFB /* BinarySearchTrees */,
 				1FAB069E206874B3007DFF69 /* Recursion */,
+				1F5E1753208CF64C007B6C99 /* DynamicProgramming */,
 				1F5E1749208BC7AD007B6C99 /* GreedyAlgorithmsAndInvariants */,
+				1F5E1754208CF658007B6C99 /* Graphs */,
 				1FF2CA9220279DA500801650 /* main.cpp */,
 			);
 			path = UnitTests;
@@ -691,6 +747,7 @@
 				1F014A8620266CAF00D3A303 /* Solution1.cpp in Sources */,
 				1F817BE1201407AD004B1C9D /* Solution3.cpp in Sources */,
 				1FB389962031217000DD5CE6 /* Solution2.cpp in Sources */,
+				1F5E1756208CF686007B6C99 /* SearchAMaze.cpp in Sources */,
 				1F354738203B4AC300EA9D40 /* Solution1.cpp in Sources */,
 				1FC4535D2013CC2600DBF2B2 /* Solution2.cpp in Sources */,
 				1F921BDB204C819E0091CFC5 /* SearchSortedForFirstOccurrence.cpp in Sources */,
@@ -706,6 +763,7 @@
 				1FE1DBAC205434C00092368A /* Solution1.cpp in Sources */,
 				1FC453522013B9FC00DBF2B2 /* Solution1.cpp in Sources */,
 				1F5E174B208BC7D0007B6C99 /* ThreeSum.cpp in Sources */,
+				1F5E175B208CF6A6007B6C99 /* Solution1.cpp in Sources */,
 				1F921BD7204C7DDE0091CFC5 /* Solution1.cpp in Sources */,
 				1FC453482013B92E00DBF2B2 /* main.cpp in Sources */,
 				1F37D3952055FFFD00873AB0 /* Solution1.cpp in Sources */,
@@ -720,6 +778,7 @@
 				1F35473C203B508D00EA9D40 /* Solution1.cpp in Sources */,
 				1F260EF7203103A0004503B8 /* Solution1.cpp in Sources */,
 				1F6FE388205DB86900A30DFB /* Solution1.cpp in Sources */,
+				1F5E1757208CF686007B6C99 /* SearchAMaze.cpp in Sources */,
 				1F2DD8B32030F41000009B8B /* Solution1.cpp in Sources */,
 				1F2DD8AE2030F06700009B8B /* BuyAndSellAStockOnceTests.cpp in Sources */,
 				1F5F20F1202FADF000B7439B /* Solution1.cpp in Sources */,
@@ -736,6 +795,7 @@
 				1FE1DBAD205434C00092368A /* Solution1.cpp in Sources */,
 				1F60B70120439676001DC75C /* IsHeightBalancedTests.cpp in Sources */,
 				1F4559762041FF58000E7D8C /* StackWithMaxTests.cpp in Sources */,
+				1F5E175C208CF6A6007B6C99 /* Solution1.cpp in Sources */,
 				1F4062B0205DC3F100D24A65 /* Solution2.cpp in Sources */,
 				1F921BD8204C7DDE0091CFC5 /* Solution1.cpp in Sources */,
 				1F5F20F3202FADF000B7439B /* Solution3.cpp in Sources */,

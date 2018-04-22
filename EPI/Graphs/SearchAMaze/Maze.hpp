@@ -9,6 +9,9 @@
 #ifndef Maze_hpp
 #define Maze_hpp
 
-#include <stdio.h>
+#include <vector>
+#include "Color.hpp"
+
+typedef std::vector<std::vector<Color>> Maze;
 
 #endif /* Maze_hpp */
