@@ -37,6 +37,10 @@ bool FindPathHelper(Maze &maze, const Vertex &curr, const Vertex &end, std::vect
     return false;
 }
 
+// V = vertices in maze, E = edges between vertices
+// N = V + E
+// time: O(N)
+// space: O(N)
 std::vector<Vertex> FindPath(Maze &maze, const Vertex &start, const Vertex &end)
 {
     std::vector<Vertex> path;
