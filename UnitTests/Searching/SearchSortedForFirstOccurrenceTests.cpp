@@ -1,5 +1,5 @@
 //
-//  SearchSortedForFirstOccurrence.cpp
+//  SearchSortedForFirstOccurrenceTests.cpp
 //  EPI
 //
 //  Created by Chris (Murim) Park on 3/4/18.

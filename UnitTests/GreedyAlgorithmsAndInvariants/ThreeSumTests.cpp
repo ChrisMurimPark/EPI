@@ -1,5 +1,5 @@
 //
-//  ThreeSum.cpp
+//  ThreeSumTests.cpp
 //  EPI
 //
 //  Created by Chris (Murim) Park on 4/21/18.

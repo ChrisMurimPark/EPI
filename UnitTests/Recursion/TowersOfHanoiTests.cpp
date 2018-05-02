@@ -1,5 +1,5 @@
 //
-//  TowersOfHanoi.cpp
+//  TowersOfHanoiTests.cpp
 //  EPI
 //
 //  Created by Chris (Murim) Park on 3/25/18.

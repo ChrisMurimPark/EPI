@@ -1,5 +1,5 @@
 //
-//  SearchAMaze.cpp
+//  SearchAMazeTests.cpp
 //  EPI
 //
 //  Created by Chris (Murim) Park on 4/22/18.
