@@ -41,8 +41,3 @@ std::vector<int> DFSRecursive(const std::unordered_map<int, std::set<int>> &grap
     }
     return path;
 }
-
-std::vector<int> DFSIterative(const std::unordered_map<int, std::set<int>> &graph, const int start, const int end)
-{
-    return std::vector<int>(); // TODO
-}

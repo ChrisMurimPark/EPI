@@ -14,6 +14,5 @@
 #include <set>
 
 std::vector<int> DFSRecursive(const std::unordered_map<int, std::set<int>> &graph, const int start, const int end);
-std::vector<int> DFSIterative(const std::unordered_map<int, std::set<int>> &graph, const int start, const int end);
 
 #endif /* DFS_hpp */
