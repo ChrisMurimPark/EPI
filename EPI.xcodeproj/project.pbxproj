@@ -590,8 +590,8 @@
 			isa = PBXGroup;
 			children = (
 				1F6FE389205DB88300A30DFB /* Common */,
-				1F014A8220266C8E00D3A303 /* Arrays */,
 				1FC4534E2013B97100DBF2B2 /* PrimitiveTypes */,
+				1F014A8220266C8E00D3A303 /* Arrays */,
 				1F260EEF20310021004503B8 /* Strings */,
 				1F354733203B4AC300EA9D40 /* LinkedLists */,
 				1F4559732041FF26000E7D8C /* StacksAndQueues */,
@@ -662,8 +662,8 @@
 		1FF2CA9120279DA500801650 /* UnitTests */ = {
 			isa = PBXGroup;
 			children = (
-				1F5F20FD202FB53E00B7439B /* Arrays */,
 				1F5F20ED202FABF300B7439B /* PrimitiveTypes */,
+				1F5F20FD202FB53E00B7439B /* Arrays */,
 				1F260EF020310053004503B8 /* Strings */,
 				1F354739203B4ADF00EA9D40 /* LinkedLists */,
 				1F4559742041FF39000E7D8C /* StacksAndQueues */,
