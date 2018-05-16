@@ -388,7 +388,6 @@
 		1F5E1751208CF61C007B6C99 /* Graphs */ = {
 			isa = PBXGroup;
 			children = (
-				1FBF99472096570100C19F8F /* General */,
 				1F5E1758208CF699007B6C99 /* SearchAMaze */,
 			);
 			path = Graphs;
@@ -412,8 +411,6 @@
 			isa = PBXGroup;
 			children = (
 				1F5E1755208CF686007B6C99 /* SearchAMazeTests.cpp */,
-				1FBF995020965B0900C19F8F /* DFSTests.cpp */,
-				1F21DA2B209935810047FC04 /* BFSTests.cpp */,
 			);
 			path = Graphs;
 			sourceTree = "<group>";
@@ -506,6 +503,50 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		1F80315720ABB453008E542A /* Combinations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Combinations;
+			sourceTree = "<group>";
+		};
+		1F80315820ABB46A008E542A /* NonEPI */ = {
+			isa = PBXGroup;
+			children = (
+				1F80315A20ABB491008E542A /* DFS */,
+				1F80315920ABB488008E542A /* BFS */,
+				1F80315720ABB453008E542A /* Combinations */,
+			);
+			path = NonEPI;
+			sourceTree = "<group>";
+		};
+		1F80315920ABB488008E542A /* BFS */ = {
+			isa = PBXGroup;
+			children = (
+				1FBF99482096571800C19F8F /* BFS.cpp */,
+				1FBF99492096571800C19F8F /* BFS.hpp */,
+			);
+			path = BFS;
+			sourceTree = "<group>";
+		};
+		1F80315A20ABB491008E542A /* DFS */ = {
+			isa = PBXGroup;
+			children = (
+				1FBF994C2096572200C19F8F /* DFS.cpp */,
+				1FBF994D2096572200C19F8F /* DFS.hpp */,
+			);
+			path = DFS;
+			sourceTree = "<group>";
+		};
+		1F80315B20ABB4A6008E542A /* NonEPI */ = {
+			isa = PBXGroup;
+			children = (
+				1FBF995020965B0900C19F8F /* DFSTests.cpp */,
+				1F21DA2B209935810047FC04 /* BFSTests.cpp */,
+			);
+			path = NonEPI;
+			sourceTree = "<group>";
+		};
 		1F921BD2204C7D9F0091CFC5 /* Searching */ = {
 			isa = PBXGroup;
 			children = (
@@ -556,17 +597,6 @@
 			path = Recursion;
 			sourceTree = "<group>";
 		};
-		1FBF99472096570100C19F8F /* General */ = {
-			isa = PBXGroup;
-			children = (
-				1FBF99482096571800C19F8F /* BFS.cpp */,
-				1FBF99492096571800C19F8F /* BFS.hpp */,
-				1FBF994C2096572200C19F8F /* DFS.cpp */,
-				1FBF994D2096572200C19F8F /* DFS.hpp */,
-			);
-			path = General;
-			sourceTree = "<group>";
-		};
 		1FC4533B2013B92E00DBF2B2 = {
 			isa = PBXGroup;
 			children = (
@@ -605,6 +635,7 @@
 				1F5E1752208CF627007B6C99 /* DynamicProgramming */,
 				1F5E1748208BC793007B6C99 /* GreedyAlgorithmsAndInvariants */,
 				1F5E1751208CF61C007B6C99 /* Graphs */,
+				1F80315820ABB46A008E542A /* NonEPI */,
 				1FC453472013B92E00DBF2B2 /* main.cpp */,
 				1FC4535A2013C56E00DBF2B2 /* README.md */,
 			);
@@ -677,6 +708,7 @@
 				1F5E1753208CF64C007B6C99 /* DynamicProgramming */,
 				1F5E1749208BC7AD007B6C99 /* GreedyAlgorithmsAndInvariants */,
 				1F5E1754208CF658007B6C99 /* Graphs */,
+				1F80315B20ABB4A6008E542A /* NonEPI */,
 				1FF2CA9220279DA500801650 /* main.cpp */,
 			);
 			path = UnitTests;
