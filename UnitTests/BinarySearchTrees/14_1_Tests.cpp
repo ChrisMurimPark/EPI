@@ -7,8 +7,8 @@
 //
 
 #include <gtest/gtest.h>
-#include "../../EPI/BinarySearchTrees/IsBST/Solution1.hpp"
-#include "../../EPI/BinarySearchTrees/IsBST/Solution2.hpp"
+#include "../../EPI/BinarySearchTrees/14.1/Solution1.hpp"
+#include "../../EPI/BinarySearchTrees/14.1/Solution2.hpp"
 
 TEST(IsBSTTests, S1_GivenNonBST_ReturnsFalse)
 {

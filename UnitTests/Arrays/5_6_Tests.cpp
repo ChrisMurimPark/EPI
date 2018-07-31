@@ -7,7 +7,7 @@
 //
 
 #include <gtest/gtest.h>
-#include "../../EPI/Arrays/BuyAndSellAStockOnce/Solution1.hpp"
+#include "../../EPI/Arrays/5.6/Solution1.hpp"
 
 TEST(BuyAndSellAStockOnceTests, GivenPricesWhereNoProfitAchievable_ReturnsZero)
 {

@@ -7,7 +7,7 @@
 //
 
 #include <gtest/gtest.h>
-#include "../../EPI/HashTables/HasPalindromicPermutation/Solution1.hpp"
+#include "../../EPI/HashTables/12.1/Solution1.hpp"
 
 TEST(HasPalindromicPermutationTests, GivenProperInputs_ReturnsCorrectResult)
 {

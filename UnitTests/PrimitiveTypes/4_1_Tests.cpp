@@ -9,9 +9,9 @@
 #include <gtest/gtest.h>
 #include <random>
 #include <limits>
-#include "../../EPI/PrimitiveTypes/ParityOfAWord/Solution1.hpp"
-#include "../../EPI/PrimitiveTypes/ParityOfAWord/Solution2.hpp"
-#include "../../EPI/PrimitiveTypes/ParityOfAWord/Solution3.hpp"
+#include "../../EPI/PrimitiveTypes/4.1/Solution1.hpp"
+#include "../../EPI/PrimitiveTypes/4.1/Solution2.hpp"
+#include "../../EPI/PrimitiveTypes/4.1/Solution3.hpp"
 
 // Although this test doesn't guarantee that the implementations are correct,
 // there's a high degree of confidence that at least one is correct. Over a large

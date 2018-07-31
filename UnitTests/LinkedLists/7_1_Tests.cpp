@@ -7,7 +7,7 @@
 //
 
 #include <gtest/gtest.h>
-#include "../../EPI/LinkedLists/MergeTwoSortedLists/Solution1.hpp"
+#include "../../EPI/LinkedLists/7.1/Solution1.hpp"
 #include "../../EPI/LinkedLists/ListNodeUtils.hpp"
 
 void ExpectEqual(ListNodeIntPtr result, const std::vector<const int> &expected_result)

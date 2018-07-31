@@ -7,7 +7,7 @@
 //
 
 #include <gtest/gtest.h>
-#include "../../EPI/Sorting/SortedIntersection/Solution1.hpp"
+#include "../../EPI/Sorting/13.1/Solution1.hpp"
 
 TEST(SortedIntersectionTests, CalculateSortedIntersection_GivenNoDuplicates_ReturnsCorrectResults)
 {

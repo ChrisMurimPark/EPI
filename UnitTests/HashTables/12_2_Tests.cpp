@@ -7,7 +7,7 @@
 //
 
 #include <gtest/gtest.h>
-#include "../../EPI/HashTables/IsAnonymousLetterConstructible/Solution1.hpp"
+#include "../../EPI/HashTables/12.2/Solution1.hpp"
 
 
 class IsAnonymousLetterConstructibleTests : public ::testing::Test {

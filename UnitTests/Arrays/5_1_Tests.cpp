@@ -7,9 +7,9 @@
 //
 
 #include <gtest/gtest.h>
-#include "../../EPI/Arrays/DutchFlagProblem/Solution1.hpp"
-#include "../../EPI/Arrays/DutchFlagProblem/Solution2.hpp"
-#include "../../EPI/Arrays/DutchFlagProblem/Solution3.hpp"
+#include "../../EPI/Arrays/5.1/Solution1.hpp"
+#include "../../EPI/Arrays/5.1/Solution2.hpp"
+#include "../../EPI/Arrays/5.1/Solution3.hpp"
 
 #include <iostream>
 

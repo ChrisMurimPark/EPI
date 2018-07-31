@@ -7,7 +7,7 @@
 //
 
 #include <gtest/gtest.h>
-#include "../../EPI/Searching/SearchSortedForFirstOccurrence/Solution1.hpp"
+#include "../../EPI/Searching/11.1/Solution1.hpp"
 
 TEST(SearchSortedForFirstOccurrenceTests, Search_GivenRepeatingElements_ReturnsFirstOccurrence)
 {

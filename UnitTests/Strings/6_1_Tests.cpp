@@ -7,8 +7,8 @@
 //
 
 #include <gtest/gtest.h>
-#include "../../EPI/Strings/InterconvertStringsAndIntegers/Solution1.hpp"
-#include "../../EPI/Strings/InterconvertStringsAndIntegers/Solution2.hpp"
+#include "../../EPI/Strings/6.1/Solution1.hpp"
+#include "../../EPI/Strings/6.1/Solution2.hpp"
 
 namespace S1
 {

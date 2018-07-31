@@ -7,7 +7,7 @@
 //
 
 #include <gtest/gtest.h>
-#include "../../EPI/StacksAndQueues/StackWithMax/Solution1.hpp"
+#include "../../EPI/StacksAndQueues/8.1/Solution1.hpp"
 
 TEST(StackWithMaxTests, Max_WithPushedValues_ReturnsCorrectValue)
 {

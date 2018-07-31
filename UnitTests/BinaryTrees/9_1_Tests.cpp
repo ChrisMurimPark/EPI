@@ -7,7 +7,7 @@
 //
 
 #include <gtest/gtest.h>
-#include "../../EPI/BinaryTrees/IsHeightBalanced/Solution1.hpp"
+#include "../../EPI/BinaryTrees/9.1/Solution1.hpp"
 
 TEST(IsHeightBalancedTests, IsHeightBalanced_GivenUnbalancedTree_ReturnsFalse)
 {

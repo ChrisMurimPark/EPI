@@ -7,7 +7,7 @@
 //
 
 #include <gtest/gtest.h>
-#include "../../EPI/GreedyAlgorithmsAndInvariants/ThreeSum.hpp"
+#include "../../EPI/GreedyAlgorithmsAndInvariants/17.4/ThreeSum.hpp"
 
 TEST(ThreeSumTests, GivenEmptyVector_ReturnsFalse)
 {

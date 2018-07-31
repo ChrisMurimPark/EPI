@@ -7,7 +7,7 @@
 //
 
 #include <gtest/gtest.h>
-#include "../../EPI/Recursion/TowersOfHanoi/Solution1.hpp"
+#include "../../EPI/Recursion/15.1/Solution1.hpp"
 
 TEST(TowersOfHanoiTests, GivenThreeAsN_ReturnsCorrectMoves)
 {

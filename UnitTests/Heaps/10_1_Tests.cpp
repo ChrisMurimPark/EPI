@@ -7,7 +7,7 @@
 //
 
 #include <gtest/gtest.h>
-#include "../../EPI/Heaps/MergeSortedFiles/Solution1.hpp"
+#include "../../EPI/Heaps/10.1/Solution1.hpp"
 
 TEST(MergeSortedFilesTests, Merge_GivenProperInputs_ReturnsCorrectResult)
 {

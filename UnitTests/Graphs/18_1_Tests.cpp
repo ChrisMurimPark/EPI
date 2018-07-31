@@ -7,7 +7,7 @@
 //
 
 #include <gtest/gtest.h>
-#include "../../EPI/Graphs/SearchAMaze/Solution1.hpp"
+#include "../../EPI/Graphs/18.1/Solution1.hpp"
 #include "Vertex.hpp"
 
 class SearchAMazeTests : public ::testing::Test
