@@ -9,6 +9,8 @@
 #include <iostream>
 #include <gtest/gtest.h>
 
+#include "../EPI/Common/Random.h"
+
 int main(int argc, const char * argv[]) {
     ::testing::InitGoogleTest(&argc, const_cast<char **>(argv));
     ::testing::FLAGS_gtest_filter = "*";
