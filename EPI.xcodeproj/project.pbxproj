@@ -70,6 +70,11 @@
 		1F921BD8204C7DDE0091CFC5 /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F921BD5204C7DDE0091CFC5 /* Solution1.cpp */; };
 		1F921BDB204C819E0091CFC5 /* 11_1_Tests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F921BDA204C819E0091CFC5 /* 11_1_Tests.cpp */; };
 		1F921BDC204C819E0091CFC5 /* 11_1_Tests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F921BDA204C819E0091CFC5 /* 11_1_Tests.cpp */; };
+		1FA504342117A4060029D620 /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FA504322117A4060029D620 /* Solution1.cpp */; };
+		1FA504352117A4060029D620 /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FA504322117A4060029D620 /* Solution1.cpp */; };
+		1FA504382117A43C0029D620 /* Star.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FA504362117A43C0029D620 /* Star.cpp */; };
+		1FA504392117A43C0029D620 /* Star.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FA504362117A43C0029D620 /* Star.cpp */; };
+		1FA5043B2117A7300029D620 /* 10_4_Tests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FA5043A2117A7300029D620 /* 10_4_Tests.cpp */; };
 		1FAB069C206872FF007DFF69 /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB069A206872FF007DFF69 /* Solution1.cpp */; };
 		1FAB069D206872FF007DFF69 /* Solution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB069A206872FF007DFF69 /* Solution1.cpp */; };
 		1FAB06A0206874C3007DFF69 /* 15_1_Tests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB069F206874C3007DFF69 /* 15_1_Tests.cpp */; };
@@ -181,6 +186,11 @@
 		1F921BD5204C7DDE0091CFC5 /* Solution1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution1.cpp; sourceTree = "<group>"; };
 		1F921BD6204C7DDE0091CFC5 /* Solution1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution1.hpp; sourceTree = "<group>"; };
 		1F921BDA204C819E0091CFC5 /* 11_1_Tests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 11_1_Tests.cpp; sourceTree = "<group>"; };
+		1FA504322117A4060029D620 /* Solution1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution1.cpp; sourceTree = "<group>"; };
+		1FA504332117A4060029D620 /* Solution1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution1.hpp; sourceTree = "<group>"; };
+		1FA504362117A43C0029D620 /* Star.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Star.cpp; sourceTree = "<group>"; };
+		1FA504372117A43C0029D620 /* Star.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Star.hpp; sourceTree = "<group>"; };
+		1FA5043A2117A7300029D620 /* 10_4_Tests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10_4_Tests.cpp; sourceTree = "<group>"; };
 		1FAB069A206872FF007DFF69 /* Solution1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution1.cpp; sourceTree = "<group>"; };
 		1FAB069B206872FF007DFF69 /* Solution1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution1.hpp; sourceTree = "<group>"; };
 		1FAB069F206874C3007DFF69 /* 15_1_Tests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 15_1_Tests.cpp; sourceTree = "<group>"; };
@@ -268,6 +278,7 @@
 			isa = PBXGroup;
 			children = (
 				1F234F41204B54DE00E8CB9C /* 10.1 */,
+				1FA504312117A3F20029D620 /* 10.4 */,
 			);
 			path = Heaps;
 			sourceTree = "<group>";
@@ -276,6 +287,7 @@
 			isa = PBXGroup;
 			children = (
 				1F234F3F204B531A00E8CB9C /* 10_1_Tests.cpp */,
+				1FA5043A2117A7300029D620 /* 10_4_Tests.cpp */,
 			);
 			path = Heaps;
 			sourceTree = "<group>";
@@ -647,6 +659,17 @@
 			path = 11.1;
 			sourceTree = "<group>";
 		};
+		1FA504312117A3F20029D620 /* 10.4 */ = {
+			isa = PBXGroup;
+			children = (
+				1FA504322117A4060029D620 /* Solution1.cpp */,
+				1FA504332117A4060029D620 /* Solution1.hpp */,
+				1FA504362117A43C0029D620 /* Star.cpp */,
+				1FA504372117A43C0029D620 /* Star.hpp */,
+			);
+			path = 10.4;
+			sourceTree = "<group>";
+		};
 		1FAB0698206872DD007DFF69 /* Recursion */ = {
 			isa = PBXGroup;
 			children = (
@@ -898,6 +921,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FA504342117A4060029D620 /* Solution1.cpp in Sources */,
 				1F4751D5205C5FEB007728FA /* Solution1.cpp in Sources */,
 				1F260EF420310094004503B8 /* Solution1.cpp in Sources */,
 				1F6FE387205DB86900A30DFB /* Solution1.cpp in Sources */,
@@ -912,6 +936,7 @@
 				1FBF994E2096572200C19F8F /* DFS.cpp in Sources */,
 				1FBF994A2096571800C19F8F /* BFS.cpp in Sources */,
 				1F688CAA21111E230055EF5F /* Solution1.cpp in Sources */,
+				1FA504382117A43C0029D620 /* Star.cpp in Sources */,
 				1F921BDB204C819E0091CFC5 /* 11_1_Tests.cpp in Sources */,
 				1F014A8D202682F300D3A303 /* Solution2.cpp in Sources */,
 				1FC27658211271E10002C402 /* Solution1.cpp in Sources */,
@@ -966,6 +991,7 @@
 				1F260EF6203102E7004503B8 /* 6_1_Tests.cpp in Sources */,
 				1F4751D6205C5FEB007728FA /* Solution1.cpp in Sources */,
 				1F5E1750208BC96C007B6C99 /* ThreeSum.cpp in Sources */,
+				1FA504392117A43C0029D620 /* Star.cpp in Sources */,
 				1FE1DBAD205434C00092368A /* Solution1.cpp in Sources */,
 				1F60B70120439676001DC75C /* 9_1_Tests.cpp in Sources */,
 				1F4559762041FF58000E7D8C /* 8_1_Tests.cpp in Sources */,
@@ -974,6 +1000,7 @@
 				1F921BD8204C7DDE0091CFC5 /* Solution1.cpp in Sources */,
 				1F5F20F3202FADF000B7439B /* Solution3.cpp in Sources */,
 				1FBF994B2096571800C19F8F /* BFS.cpp in Sources */,
+				1FA5043B2117A7300029D620 /* 10_4_Tests.cpp in Sources */,
 				1F6FE384205DB85B00A30DFB /* 14_1_Tests.cpp in Sources */,
 				1FBF994F2096572200C19F8F /* DFS.cpp in Sources */,
 				1F5F20F4202FADF000B7439B /* Solution1.cpp in Sources */,
@@ -988,6 +1015,7 @@
 				1F5F20F6202FADF000B7439B /* Solution3.cpp in Sources */,
 				1FBF995220965B0900C19F8F /* DFSTests.cpp in Sources */,
 				1F1DB5E521174FF500B9D2F8 /* 4_8_Tests.cpp in Sources */,
+				1FA504352117A4060029D620 /* Solution1.cpp in Sources */,
 				1FF2CA9320279DA500801650 /* main.cpp in Sources */,
 				1F37D3922055FFF200873AB0 /* 12_2_Tests.cpp in Sources */,
 				1F80316120ABB557008E542A /* NumCombinationsTests.cpp in Sources */,
