@@ -13,6 +13,6 @@
 
 int main(int argc, const char * argv[]) {
     ::testing::InitGoogleTest(&argc, const_cast<char **>(argv));
-    ::testing::FLAGS_gtest_filter = "Leven*";
+    ::testing::FLAGS_gtest_filter = "Ways*";
     return RUN_ALL_TESTS();
 }
